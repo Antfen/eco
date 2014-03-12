@@ -1,0 +1,143 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+#block-menu-menu-accordion {
+	
+}
+
+#block-menu-menu-accordion li {
+    float: left;
+    position: relative;
+}
+#block-menu-menu-accordion li ul {
+   	/*left: 0px;
+    position: absolute !important;
+    z-index: 999;*/
+}
+
+#block-menu-menu-accordion ul.menu li a {
+    line-height: 1.2em;
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: normal;
+	background: none;
+	color: #ccc;
+	border-radius: none;
+	-moz-border-radius: none;
+	-webkit-border-radius: none;
+	text-align: left;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#block-menu-menu-accordion ul.menu li a.active {
+	background: none;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2em;
+}
+
+#block-menu-menu-accordion ul.menu li a:hover {
+	background: none;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2em;
+}
+
+/* ================================= */
+#block-menu-menu-accordion ul.menu li:after/*, #block-menu-menu-accordion ul.menu ul li:after*/ {
+background-color: #333;
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#333),color-stop(48%,#444),color-stop(100%,#000));
+background-image: -webkit-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
+background-image: -moz-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
+background-image: -ms-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
+background-image: -o-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
+background-image: linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
+content: "";
+position: absolute;
+height: 2.5em;
+top: 1px;
+left: 0;
+width: 1px;
+}
+/* ========================================== */
+
+#block-menu-menu-accordion ul.menu ul {
+	float: left;
+ 
+}
+#block-menu-menu-accordion ul.menu ul li a, #block-menu-menu-accordion ul.menu ul li a:hover {
+    line-height: 1.2em;
+	font-size: 1.2em;
+	text-align: left;
+	color: #ccc;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-webkit-box-shadow: 0;
+	box-shadow: 0;
+	background-color: transparent;
+ 
+}
+#block-menu-menu-accordion ul.menu li ul li a:hover {
+    text-decoration: underline;
+ 
+}
+/* ### Zone styles ###*/
+.zone-branding { 
+	background: rgba(68,68,68,1);
+	background: -moz-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(68,68,68,1)), color-stop(50%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#000000', GradientType=0 );
+}
+/* Styles for the Contact (webform) */
+/* ### alpha default ### */
+.submitted {display:none;}
+#contact_us * {
+	/*margin:0;
+	padding: 0;*/
+}
+#contact_us .webform {
+}
+#contact_us p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #fff;
+}
+#contact_us .float_clr {
+	clear: both;
+}
+#contact_us .webform label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	position: absolute;
+}
+#contact_us .webform-component-textarea label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	position: relative;
+}
+#contact_us .webform .form-item {
+	padding: 7px 0;
+}
+#contact_us .webform input, #contact_us .webform select {
+	margin-left: 230px;
+}
+#contact_us .webform .form-submit {
+	position: relative;
+}
+#contact_us .webform #edit-submit {
+	margin-left:0;
+}
+/* ### User menu ### */
+#block-system-user-menu ul li, #block-menu-menu-logged-in-console ul li {
+	float: none;
+	width: auto;
+}
+/* ### alpha default end ### */
+/* Styles for the Contact (webform) END */

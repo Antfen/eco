@@ -1,0 +1,462 @@
+<script type="text/javascript" src="http://content.bounty.com/images/css/bounty/tv/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="http://content.bounty.com/images/css/bounty/tv/fancybox/jquery.easing-1.4.pack.js"></script>
+<script type="text/javascript" src="http://content.bounty.com/images/css/bounty/tv/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+// Handler for .ready() called.   
+			$(".pc_video").fancybox({
+				'transitionIn'		: 'elastic',
+				'padding'			: 0,
+				'autoScale'			: false,
+				'transitionOut'		: 'fade',
+				'width'				: 560,
+				'height'			: 315,
+				'overlayOpacity'	: 0.1,
+				'type'				: 'iframe'
+			});
+				if(location.hash) {
+			$(location.hash).click()
+			}	
+		
+		$(".pc_video2").fancybox({
+				'transitionIn'		: 'elastic',
+				'padding'			: 0,
+				'autoScale'			: false,
+				'transitionOut'		: 'fade',
+				'width'				: 440,
+				'height'			: 310,
+				'overlayOpacity'	: 0.1,
+				'type'				: 'iframe'
+			});
+				if(location.hash) {
+			$(location.hash).click()
+				
+		}
+		$(".pc_video3").fancybox({
+				'transitionIn'		: 'elastic',
+				'padding'			: 0,
+				'autoScale'			: false,
+				'transitionOut'		: 'fade',
+				'width'				: 440,
+				'height'			: 310,
+				'overlayOpacity'	: 0.1,
+				'type'				: 'iframe'
+			});
+				if(location.hash) {
+			$(location.hash).click()
+				
+		}
+});
+</script>
+<script src="http://content.bounty.com/images/css/comp/infacol/SpryAssets/SpryCollapsiblePanel.js" type="text/javascript"></script>
+<script type="text/javascript"> 
+$(document).ready(function() {
+                
+   $('.webform-client-form').appendTo('.webform');  // moves webform from footer to div with class =”webform”
+   $('#content-area').css('display','block');  // Displays content once webform has been moved 
+   
+   
+   //Radio Buttons for items group. #webform-component-Questions (the -'Questions' is derived from thewebform 'field key'
+   $('#webform-component-Questions .form-checkbox').click(function() {
+    $('#webform-component-Questions .form-checkbox:checked').not(this).removeAttr('checked');
+	
+	});    
+   
+ });
+</script>
+<style type="text/css">
+/* Site fixes */
+h2.article-title {
+	display: none;
+}
+ul.links.inline {
+	/*padding-top: 20px;*/
+	display: none;
+}
+#article .content ul {
+	padding-left: 0px;
+}
+div.block-inner h3.title {
+	display: none;
+}
+#content-area {  /* Hides content area until webform has been moved so users don’t see things appearing and disappearing */
+	display:none;
+}
+/* end */
+#persil-comfort_comp_feb13 .form-checkboxes {
+	width: 179px;/*margin:0;padding: 0;*/
+}
+/* Generic */
+#persil-comfort_comp_feb13 a.pc, #persil-comfort_comp_feb13 a:hover.pc {
+	color: #ea5084;
+	text-decoration: underline;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#persil-comfort_comp_feb13 h1 {
+	color: #00aae5;
+	font-size:25px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 25px
+}
+#persil-comfort_comp_feb13 h2 {
+	color: #00AAE5;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	margin-top: 0px;
+}
+#persil-comfort_comp_feb13 p {
+	color: #00aae5;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 7px 0 0;
+	text-align:justify;
+	line-height: 15px;
+}
+#persil-comfort_comp_feb13 .nopadtop {
+	margin-top: 0;
+	padding-top: 0;
+}
+/* Sturcture */
+#persil-comfort_comp_feb13 {
+	width: 970px;
+	margin-left: 6px;
+}
+#persil-comfort_comp_feb13 #pc_left_col {
+	float: left;
+	position:relative;
+	width: 647px;
+	height: 1050px;
+}
+#persil-comfort_comp_feb13 #pc_right_col {
+	float: left;
+	position:relative;
+	width: 323px;
+	height: 1050px;
+}
+#persil-comfort_comp_feb13 #pc_left_col #better {
+	height: 701px;
+	background:url('http://content.bounty.com/images/css/comp/persil-comfort/feb13/2012_09_Persil_Comfort_hub_03.jpg') no-repeat 0 0;
+}
+#persil-comfort_comp_feb13 #pc_left_col #video {
+	height: 339px;
+	background:url('http://content.bounty.com/images/css/comp/persil-comfort/feb13/2012_09_Persil_Comfort_hub_06.jpg') no-repeat 0 0;
+	padding-left: 15px;
+}
+#persil-comfort_comp_feb13 #pc_right_col #comp {
+	height: 415px;
+	padding: 0 20px;
+	background:url('http://content.bounty.com/images/css/comp/persil-comfort/feb13/2012_09_Persil_Comfort_hub_bg_win.jpg') no-repeat 0 0;
+}
+#persil-comfort_comp_feb13 #pc_right_col #travel_guide {
+	height: 286px;
+	margin: 0;
+	padding: 0 0 0 20px;
+	background:url('http://content.bounty.com/images/css/comp/persil-comfort/feb13/2012_09_Persil_Comfort_hub_bg_guide.jpg') no-repeat 0 0;
+}
+#persil-comfort_comp_feb13 #pc_right_col #collect {
+	height: 339px;
+	background:url('http://content.bounty.com/images/css/comp/persil-comfort/feb13/2012_09_Persil_Comfort_hub_07.jpg') no-repeat 0 0;
+}
+#persil-comfort_comp_feb13 #pc_tc {
+	width: 970px;
+	margin-top: 25px;
+}
+/* ad hod */
+#persil-comfort_comp_feb13 #pc_left_col #better a.better_top_link1, #persil-comfort_comp_feb13 #pc_left_col #better a:hover.better_top_link1, #persil-comfort_comp_feb13 #pc_left_col #better a.better_top_link2, #persil-comfort_comp_feb13 #pc_left_col #better a:hover.better_top_link2 {
+	float: left;
+	width: 647px;
+	height: 330px;
+	display: block;
+}
+#persil-comfort_comp_feb13 #pc_left_col #better a.better_top_link2, #persil-comfort_comp_feb13 #pc_left_col #better a:hover.better_top_link2 {
+	height: 89px;
+	width: 150px;
+}
+#persil-comfort_comp_feb13 #pc_left_col #better a:hover.better_top_link1, #persil-comfort_comp_feb13 #pc_left_col #better a:hover.better_top_link2 {
+	text-decoration: none;
+}
+#persil-comfort_comp_feb13 #pc_right_col #comp h1.comp_hd {
+	margin: 0 0 0 112px;
+	padding: 33px 0 0;
+}
+#persil-comfort_comp_feb13 #pc_left_col #better h1.better_hd {
+	margin: 0 0 0 40px;
+	padding: 344px 0 40px;
+	font-size: 19px;
+}
+#persil-comfort_comp_feb13 #pc_left_col #better p {
+	padding: 50px 40px 0 170px;
+}
+#persil-comfort_comp_feb13 #pc_right_col #comp p {
+	padding-top: 3px;
+}
+#persil-comfort_comp_feb13 #pc_left_col #video .info_holder {
+	float: left;
+	width: 298px;
+}
+#persil-comfort_comp_feb13 #pc_left_col #video .info_holder img {
+	float: left;
+	width: 140px;
+	margin-left: 18px;
+}
+#persil-comfort_comp_feb13 #pc_left_col #video .info_holder h1 {
+	color: #ffcb42;
+	padding-bottom: 0px;
+}
+#persil-comfort_comp_feb13 #pc_left_col #video .info_holder p {
+	color: #000;
+	padding-bottom: 10px;
+}
+#persil-comfort_comp_feb13 #pc_left_col #video .app {
+	float: left;
+	width: 319px;
+	margin: 0 0 0 15px;
+}
+#persil-comfort_comp_feb13 #pc_left_col #video .app p {
+	padding: 4px 124px 0 0;
+}
+#persil-comfort_comp_feb13 #pc_left_col #video .app img {
+	margin-top: 35px;
+}
+#persil-comfort_comp_feb13 #pc_right_col #travel_guide h2.guide_hd {
+	padding-top: 40px;
+}
+#persil-comfort_comp_feb13 #pc_right_col #travel_guide p {
+	padding-right: 143px;
+}
+#persil-comfort_comp_feb13 #pc_right_col #travel_guide img {
+	margin-top: 26px;
+}
+#persil-comfort_comp_feb13 #pc_right_col #collect .fb_pc_share {
+	padding: 190px 0 0 10px;
+}
+/* T&C's */
+#persil-comfort_comp_feb13 #pc_tc ol {
+	width: auto;
+	margin: 10px 0 0 20px;
+}
+#persil-comfort_comp_feb13 #pc_tc ol li {
+	color: #333;
+	font-size: 11px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0 20px 3px 5px;
+}
+#persil-comfort_comp_feb13 #pc_tc ol li a {
+	color: #333;
+	font-size: 11px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+#persil-comfort_comp_feb13 #pc_tc p {
+	padding: 5px 0 5px 5px;
+	font-weight:bold;
+}
+#persil-comfort_comp_feb13 #pc_tc p.hd {
+	color: #FFF;
+	padding: 5px 0;
+	font-weight:bold;
+}
+#persil-comfort_comp_feb13 .float_left {
+	float:left;
+}
+#persil-comfort_comp_feb13 .clr_float {
+	clear:both;
+}
+/* form styles */
+#webform-client-form-129210 {
+	position: relative;
+	width: auto;
+	margin: 3px 0 0;
+}
+#webform-client-form-129210 .form-item label {
+	color: #00aae5;
+	font-size:11px;
+	font-weight: bold;
+	padding-bottom: 0px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#webform-client-form-129210 .form-item input {
+	/*display: inline-block;*/
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	right: 17px;
+}
+#webform-client-form-129210 select {
+	/*display: inline-block;*/
+	margin-left: 10px;
+	border: 1px solid #b2005e;
+}
+#webform-client-form-129210 #edit-submit {
+	background: url("http://content.bounty.com/images/css/comp/persil-comfort/feb13/2012_09_Persil_Comfort_hub_btn_comp.png") no-repeat scroll 0 0 transparent;
+	border: medium none;
+	cursor: pointer;
+	font-size: 0;
+	height: 26px;
+	line-height: 999px;
+	margin: 2px 0 0 0px;
+	width: 82px;
+}
+#webform-client-form-129210 .form-radios {
+	margin: 2px 0 0;
+	padding: 0
+}
+#webform-client-form-129210 .form-radios .form-item {
+	margin: 1px 0 0;
+	padding: 0
+}
+#webform-client-form-129210 #edit-submitted-questions-1-wrapper .option, #webform-client-form-129210 #edit-submitted-questions-2-wrapper .option, #webform-client-form-129210 #edit-submitted-questions-3-wrapper .option {
+/*float: left;
+	margin: 0;
+	padding:0*/
+}
+div.messages, div.status, div.warning, div.error {/*position the error, validation messages */
+	position:absolute;
+	top: 200px;
+	left: 323px;
+	z-index:5;
+	width: 300px;
+}
+div.status {/* users get only one go at submitting! */
+/*display: none;*/
+}
+/* collapsible panel styles here */
+.CollapsiblePanel {
+	margin: 0px;
+	padding: 0px;
+}
+.CollapsiblePanelTab {
+	margin: 0px;
+	padding: 2px;
+	cursor: pointer;
+	background-color:#36bcee;
+	height: auto;
+	/*width: 704px;*/
+	color:#fff;
+	padding: 5px 0 5px 5px;
+	font-weight:bold;
+}
+.CollapsiblePanelContent {
+	margin: 0px;
+	padding: 0px;
+	background-color: #a8e2f7;
+}
+.CollapsiblePanelOpen .CollapsiblePanelTab {
+	background-color: #36bcee;
+}
+.CollapsiblePanelClosed .CollapsiblePanelTab {
+	text-decoration: underline;
+}
+.CollapsiblePanelTabHover, .CollapsiblePanelOpen .CollapsiblePanelTabHover {
+	background-color: #36bcee;
+	text-decoration:underline;
+}
+.CollapsiblePanelFocused .CollapsiblePanelTab {
+	background-color:#36bcee;
+}
+</style>
+<div id="persil-comfort_comp_feb13">
+  <div id="pc_left_col">
+    <div id="better"> <a class="better_top_link1" href="http://pubads.g.doubleclick.net/gampad/clk?id=76750418&iu=/5527/P5527.home" target="_blank"> </a>
+      <h1 class="better_hd">The ideal combination for your newborn baby's sensitive skin</h1>
+      <p style="padding-top: 22px;">Persil Non-Bio is the ideal choice for sensitive skins, as it uses milder fragrances and no enzymes. </p>
+      <p style="padding-top: 12px;">Like Comfort Pure, it's dermatologically tested with research recognised by the British Skin Foundation.</p>
+      <a class="pc_video2" href="/persil/iframe_1" target="_blank"><img src="http://content.bounty.com/images/css/comp/persil-comfort/feb13/2012_09_Persil_Comfort_hub_btn_buy.png"  style="padding: 4px 440px;" alt="click here for app" width="159" height="26" border="0" title="click here for app"/></a>
+      <p style="padding-top: 30px;">When clothes are washed, the fibres can start to tangle and bobble. Comfort Pure keeps fibres smoother so clothes feel soft and gentle against babies' skin. </p>
+      <p style="padding-top: 9px;">Plus, it's dermatologically tested and hypoallergenic too, with skincare research recognised by the British Skin Foundation.</p>
+      <a class="pc_video3" href="/persil/iframe_2" target="_blank"><img src="http://content.bounty.com/images/css/comp/persil-comfort/feb13/2012_09_Persil_Comfort_hub_btn_buy.png"  style="padding: 4px 440px;" alt="click here for app" width="159" height="26" border="0" title="click here for app"/></a> </div>
+    <!-- closes better -->
+    <div id="video">
+      <div class="info_holder">
+        <h1> Helpful videos</h1>
+        <p>To watch one of our videos please click on one of the images below:</p>
+        <a class="pc_video" id="vid1" href="/client/video/persil-comfort/new-baby-skin-care"><img style="margin-left:0" src="http://content.bounty.com/images/css/comp/persil-comfort/sep12/2012_09_Persil_Comfort_hub_video_thumb1.jpg" width="140" height="101" alt="Play Video: New Baby Skin Care" title="Play Video: New Baby Skin Care" /></a> <a class="pc_video" id="vid2" href="/client/video/persil-comfort/non-bio"><img src="http://content.bounty.com/images/css/comp/persil-comfort/sep12/2012_09_Persil_Comfort_hub_video_thumb2.jpg" width="140" height="101" alt="Play Video: Non Bio" title="Play Video: Non Bio" /></a>
+        <div class="clr_float"></div>
+        <a class="pc_video" id="vid3" href="/client/video/persil-comfort/swaddling"><img style="margin-left:0" src="http://content.bounty.com/images/css/comp/persil-comfort/sep12/2012_09_Persil_Comfort_hub_video_thumb3.jpg" width="140" height="101" alt="Play Video: Swaddling" title="Play Video: Swaddling" /></a> <a class="pc_video" id="vid4" href="/client/video/persil-comfort/baby-massage"><img src="http://content.bounty.com/images/css/comp/persil-comfort/sep12/2012_09_Persil_Comfort_hub_video_thumb4.jpg" width="140" height="101" alt="Play Video: Baby Massage" title="Play Video: Baby Massage" /></a> </div>
+      <!-- closes info_holder -->
+      <div class="app">
+        <h1>Download your pregnancy diary APP</h1>
+        <p>Download our Pregnancy Diary app and have your own pocket guide for your journey. </p>
+        <p>Within the app you will be able to keep track of what’s happening with you and your baby week by week, use your own personal gallery, speak with mums in our online community and more!</p>
+        <a href="http://pubads.g.doubleclick.net/gampad/clk?id=76751138&iu=/5527/P5527.home" target="_blank"><img src="http://content.bounty.com/images/css/comp/persil-comfort/feb13/2012_09_Persil_Comfort_hub_btn_app.png" alt="click here for app" width="159" height="26" border="0" title="click here for app" /></a></div>
+      <!-- closes app -->
+    </div>
+    <!-- closes video -->
+  </div>
+  <!-- closes left col -->
+  <div id="pc_right_col">
+    <div id="comp">
+      <h1 class="comp_hd">Your chance to WIN a pamper pack for you and baby!</h1>
+      <p>Comfort Pure and Persil Non Bio are offering one lucky mum a month the chance to win one of our Mum and Baby pamper packs, exclusive to Bounty!</p>
+      <p>All you need to do is answer the following question:</p>
+      <div class="webform"></div>
+    </div>
+    <!-- closes comp -->
+    <div id="travel_guide">
+      <h2 class="guide_hd">Baby travel guide</h2>
+      <p>If you’re dreaming of going on holiday this year, but either feel too pregnant to try or are worried about travelling with your little one, Persil Non-Bio and Comfort Pure’s Travel Guide is here to help! </p>
+      <a href="http://pubads.g.doubleclick.net/gampad/clk?id=76750898&iu=/5527/P5527.home" target="_blank"><img src="http://content.bounty.com/images/css/comp/persil-comfort/feb13/2012_09_Persil_Comfort_hub_btn_guide.png" alt="for more info on the travel guide click here" width="279" height="26" border="0" title="for more info on the travel guide click here" /></a> </div>
+    <!-- closes travel_guide -->
+    <div id="collect"> <a href="http://pubads.g.doubleclick.net/gampad/clk?id=76751498&iu=/5527/P5527.home" title="Facebook!" target="_blank"> <img class="fb_pc_share" src="http://content.bounty.com/images/css/comp/persil-comfort/feb13/2012_09_Persil_Comfort_hub_fb_share.png" alt="Facebook send" width="84" height="50" border="0" /></a> </div>
+    <!-- closes collect -->
+  </div>
+  <!-- closes right col -->
+  <div class="clr_float"></div>
+  <div id="pc_tc">
+    <div id="CollapsiblePanel1" class="CollapsiblePanel">
+      <div class="CollapsiblePanelTab" tabindex="0">Terms and Conditions [please click] </div>
+      <div class="CollapsiblePanelContent">
+        <p><strong>*Terms &amp; Conditions</strong></p>
+        <ol>
+          <li>Bounty Members have the chance to enter the free prize draw for a chance to win a pamper package including a full size bottle of Comfort Pure, a full size bottle of Persil Non Bio, a hooded towel, a pack of Simple Baby wipes, travel size Simple products for mum (“Prize”).</li>
+          <li>There is one Prize to be won each month. 3. To enter the prize draw log onto the Bounty website at www.bounty.com/client/tenancy, simply answer a question and click to enter.</li>
+          <li>The opening date for the prize draw is 3rd October 2012 and the closing date is 3rd January 2013.</li>
+          <li>Winners will be chosen at random from all successful entrants.</li>
+          <li>Winners will be notified by email within 14 days of the end of each month.</li>
+          <li>Within 14 days of notification the winner is required to email confirmation of their postal address and acceptance of the Prize to the Promoter. In the event that the winner does not provide the required confirmation within the 14 days the entry may be disqualified and an alternative winner may be chosen.</li>
+          <li>Prizes will be sent free of charge by courier, to the winners within 14 days of receipt of address confirmation from the winner to an address within the UK and Republic of Ireland.</li>
+          <li>The Promoter will not be liable for any Prize(s) that do not reach the winner for reasons beyond the Promoter’s reasonable control.</li>
+          <li>The prize draw is open to Bounty Members who must have a valid email address.</li>
+          <li>All entrants must be aged 18 years or over and resident in the UK and Republic of Ireland.</li>
+          <li>Only one entry is permitted per person each month.</li>
+          <li>No applications from agents, third parties, organised groups or applications automatically generated by computer will be accepted.</li>
+          <li>The Prize cannot be transferred and no cash alternative is available.</li>
+          <li>Prizes are as stated and subject to availability. In the event of a Prize being unavailable, the Promoter reserves the right to offer an alternative prize of equal or greater value.</li>
+          <li>Winners’ details will only be used for administration of the Prize and publication of the prize draw winners as detailed below and for no other purpose.</li>
+          <li>The names and counties of the winners will be displayed on www.bounty.com or other social media websites within 14 days of the closing date.</li>
+          <li>Winners consent to their name and county being disclosed to other entrants on request.</li>
+          <li>Use of a false name or address will result in disqualification.</li>
+          <li>Employees of Bounty (UK) Limited and Unilever UK Limited or any associated companies and immediate members of their families, are not eligible to enter the prize draw.</li>
+          <li>By entering the prize draw, entrants agree to be bound by the rules and by any other requirements set out in the promotional material.</li>
+          <li>The decisions of the Promoter will be final and no correspondence will be entered into.</li>
+          <li>By entering the prize draw, entrants agree to be bound by these terms and conditions, which are governed in accordance with the laws of England and Wales.</li>
+          <li>In the event that any terms and condition(s) are deemed invalid, illegal or otherwise unenforceable, they shall be severed from these terms and the remaining clauses will remain in force.</li>
+        </ol>
+        <p>Promoter: Bounty (UK) Limited, 29 Broadwater Road, Welwyn Garden City, Hertfordshire AL7 3BQ.</p>
+      </div>
+      <!-- closes CollapsiblePanelContent -->
+    </div>
+    <!-- CollapsiblePanel1 -->
+  </div>
+  <!-- closes tandc -->
+</div>
+<!-- closes the lot!!! -->
+<script type="text/javascript">
+<!--
+var CollapsiblePanel1 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel1");
+//-->
+</script>
+<script type="text/javascript">
+ <!--
+//$(document).ready(function(){
+//  var CollapsiblePanel1 = new Spry.Widget.CollapsiblePanel("CollapsiblePanel1");
+//});
+//-->
+</script>

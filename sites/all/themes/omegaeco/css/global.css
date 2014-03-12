@@ -1,0 +1,642 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+h1, h2, h3, h4, h5, h6, p, ul, li, a {
+    font-family: Arial
+}
+h1 {
+    font-size:22px;
+}
+h2 {
+    font-size: 18px;
+}
+h3 {
+    font-size: 17px;
+	color: #ff9900;
+	margin-bottom: 0px;
+}
+h4 {
+    font-size: 16px;
+	margin-bottom: 0px;
+}
+h5 {
+    font-size: 14px;
+    font-weight: normal;
+	margin-bottom: 0px;
+}
+body {
+	background: url('../images/wave_alt2.jpg') repeat -150px -150px;
+    min-height: 100%;
+    min-width: 100%;
+	color: #fff;
+}
+body p {
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+a:link, a:visited, li a.active {
+    color: #ff4400;
+    text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+@font-face {
+    font-family: 'compacta_bd_btbold';
+    src: url('http://localhost/eco/sites/all/themes/omegaeco/fonts/compctab-webfont.eot');
+    src: url('http://localhost/eco/sites/all/themes/omegaeco/fonts/compctab-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://localhost/eco/sites/all/themes/omegaeco/fonts/compctab-webfont.woff') format('woff'),
+         url('http://localhost/eco/sites/all/themes/omegaeco/fonts/compctab-webfont.ttf') format('truetype'),
+         url('http://localhost/eco/sites/all/themes/omegaeco/fonts/compctab-webfont.svg#compacta_bd_btbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#section-header{
+	/*background-color: #fff;padding: 7px 0 10px;
+	background: -moz-linear-gradient(center top , #464646, #000000) repeat scroll 0 0 transparent;
+    box-shadow: 1px 1px 2px #000000;*/
+    min-height: 58px;
+	
+	
+	/*background-image: linear-gradient(bottom, rgb(70,70,70) 6%, rgb(0,0,0) 57%);
+	background-image: -o-linear-gradient(bottom, rgb(70,70,70) 6%, rgb(0,0,0) 57%);
+	background-image: -moz-linear-gradient(bottom, rgb(70,70,70) 6%, rgb(0,0,0) 57%);
+	background-image: -webkit-linear-gradient(bottom, rgb(70,70,70) 6%, rgb(0,0,0) 57%);
+	background-image: -ms-linear-gradient(bottom, rgb(70,70,70) 6%, rgb(0,0,0) 57%);*/
+
+	/*background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.06, rgb(70,70,70)),
+		color-stop(0.57, rgb(0,0,0))
+	);*/
+
+}
+.region-branding {
+	/*margin-top: 10px;*/
+}
+
+.site-slogan {
+	color: #FF9900;
+	font-size: 1.4em;
+	padding: 5px 0;
+}
+.site-name  a {
+	color: #FF4400;
+}
+
+.breadcrumb a {
+	color: #ff4400;
+	text-decoration: none;
+}
+/* headings */
+h2.block-title {
+	color: #ff0000;
+}
+
+/* ### responsive menu ### */
+#zone-menu-wrapper {
+    /*
+    fix for ie z-index problem, add this on the top container that holds your menu block
+    */
+    position:relative;
+    z-index:2
+}
+#block-menu-menu-accordion {
+    margin-bottom:1em;
+}
+#block-menu-menu-accordion ul.menu {
+    margin:0.1666% 0 0;
+    padding-bottom:0.2666;
+    list-style:none;
+    position:relative
+}
+#block-menu-menu-accordion ul.menu li {
+    list-style: none;
+}
+#block-menu-menu-accordion ul.menu li a {
+    display: block;
+    line-height: 2em;
+    padding: 0.5em;
+    outline:none;
+    background:#FF4400;
+    color:#333;
+	list-style: none;
+	text-decoration: none;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	text-align: left;
+	font-size: 1.2em;
+	font-weight:normal;
+	/*-webkit-box-shadow: inset 1px 1px 7px 1px rgba(51, 51, 51, .5);
+	box-shadow: inset 1px 1px 7px 1px rgba(51, 51, 51, .5); */
+	-webkit-box-shadow:  1px 1px 7px 1px rgba(51, 51, 51, .5);
+    box-shadow:  1px 1px 7px 1px rgba(51, 51, 51, .5);
+}
+#block-menu-menu-accordion ul.menu li a:hover {
+    background:#FFB300;
+    text-decoration:none;
+}
+#block-menu-menu-accordion ul.menu li a.active {
+    background:#FF9900;
+    text-decoration:none;
+	color: #fff;
+}
+#block-menu-menu-accordion ul.menu li span.over {
+    /*background:#CCC;
+    color: #000000;*/
+    display: block;
+    float: right;
+    height: 33px;
+    line-height: 30px;
+    padding: 0 0.5em;
+    text-align: center;
+    cursor:pointer;
+	/*border:1px solid #666;*/
+}
+#block-menu-menu-accordion ul.menu li span.over:hover {
+    /*background:#FCD705;*/
+    background-color: none;
+    /*color:#FFF*/
+}
+#block-menu-menu-accordion ul.menu ul {
+    margin:0;
+    padding:0;
+    display:none;
+}
+#block-menu-menu-accordion ul.menu ul li a {
+    text-indent:0;
+    color:#000;
+    background:#CCC;
+    text-decoration:none;
+}
+#block-menu-menu-accordion ul.menu ul li a:hover {
+    background: #EBEBEB
+}
+#block-menu-menu-accordion ul.menu ul li a.last {
+    border-bottom: none;
+}
+/* ################# */
+#block-menu-menu-accordion ul.menu li span.over {
+display: block;
+float: right;
+height: 21px;
+width: 32px;
+line-height: 30px;
+padding: 0 0.5em;
+text-align: center;
+cursor: pointer;
+margin: 9px 10px 0 0;
+}
+#block-menu-menu-accordion ul.menu li span.down {
+background: transparent url(../images/menu_closed.png) center left no-repeat;
+}
+
+#block-menu-menu-accordion ul.menu li span.up {
+background: transparent url(../images/menu_expanded.png) center left no-repeat;
+}
+
+/* ################# */
+
+
+
+/* ### User menu ### */
+#block-system-user-menu ul li, #block-menu-menu-logged-in-console ul li {
+	list-style: none;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	float: left;
+	width: 33.3333333%;
+}
+#block-system-user-menu ul li.first .leaf, #block-menu-menu-logged-in-console ul li.first .leaf {
+	margin-top: 0;
+
+}
+#block-system-user-menu ul li a, #block-menu-menu-logged-in-console ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	text-align: center;
+	background: -moz-linear-gradient(
+		top,
+		#a3a3a3 0%,
+		#3b3b3b 50%,
+		#242424 50%,
+		#000000);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#a3a3a3),
+		color-stop(0.50, #3b3b3b),
+		color-stop(0.50, #242424),
+		to(#000000));
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,1),
+		0px 1px 0px rgba(255,255,255,0.2);
+}
+#block-system-user-menu ul li a, #block-system-user-menu ul li a:hover, #block-menu-menu-logged-in-console ul li a, #block-menu-menu-logged-in-console ul li a:hover {
+	text-decoration: none;
+	display: block;
+	padding: 2px 4px;
+}
+#block-system-user-menu ul li a:hover, #block-menu-menu-logged-in-console ul li a:hover {
+	color: #ff4400;
+}
+/* ### */
+.zone-preface, .zone-content, .zone-footer, .zone-postscript  { 
+	margin-top: 15px;
+	margin-bottom: 20px;
+	padding-top: 15px;
+	/*padding-bottom: 20px;*/
+	/*opacity:0.8;*/
+	-moz-border-radius:12px;
+	border-radius: 7px; 
+	-moz-border-radius: 7px; 
+	-webkit-border-radius: 7px; 
+	/*box-shadow: 1px 1px 2px #000000;*/
+	background: url("../images/content_bg_v2.png");
+}
+
+.zone-branding, .zone-postscript { 
+	-webkit-border-radius: 0px 0px 12px 12px;
+	border-radius: 0px 0px 12px 12px;
+	padding-top: 1em;
+	padding-bottom: 0.9em;
+}
+.zone-branding { 
+	background-color: #222;
+}
+.zone-menu { 
+	-webkit-border-radius: 0px 0px 12px 12px;
+	border-radius: 0px 0px 12px 12px;
+	background: url("../images/content_bg_v2.png");
+}
+.zone-content { 
+	-webkit-border-radius: 12px 12px 0px 0px;
+	border-radius: 12px 12px 0px 0px;
+	margin-bottom: 0;
+}
+.zone-postscript { 
+	padding-top: 1em;
+	padding-bottom: 0.9em;
+	margin-top: 0;
+}
+li.pager-previous {width:60px;}
+h1 #page-title .title {padding-bottom:0;}
+/*#block-block-3.block .block-block .block-3 .block-block-3 .odd{ background-color:#ff4400;}*/
+
+#zone-preface .block, #region-sidebar-first .block, #region-content .block ,#region-sidebar-second .block ,#region-footer-first .block ,#zone-postscript .block, #block-system-user-menu, #block-menu-menu-logged-in-console {
+	clear:both;/*Forces Safari & other mobile devices to round corners*/
+	padding: 10px;
+	border: 1px solid #666666;
+	margin-bottom: 15px;
+	border-radius: 7px; 
+	-moz-border-radius: 7px; 
+	-webkit-border-radius: 7px;
+	background: url("../images/content_bg.png");
+	overflow: hidden;
+}
+#zone-preface .block h3, #region-sidebar-first .block h3, #region-content .block h3, #region-sidebar-second .block h3, #region-footer-first .block h3, #zone-postscript .block h3, #block-system-user-menu h3 {
+	background-color: #000000;
+    margin: -10px -10px 0;
+    padding: 5px 5px 6px 10px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.1em;
+
+}
+h3.location-locations-header {
+	background-color: transparent !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+#region-sidebar-first .block  ul li{
+	list-style: none;
+}
+#zone-preface {
+	/*display: none !important;*/ /* does not show slide show as default */
+	overflow: hidden; /* no scrollbar-bottom in wide-mode */
+}
+#block-menu-menu-footer-menu li {
+	list-style: none;
+}
+.region-branding-inner {
+	
+}
+
+
+/*### home page slider ###*/
+/*#transbody {
+	display: none;
+}
+#transpager {
+	display: none;
+}
+#trbody {
+	display: none;
+}
+#trlink  *{
+	display: none;
+}*/
+/*#trlink  {
+	display: none;
+}
+.flex-control-nav {
+display: none;
+}
+#trbody p {
+	color: #ff0000;
+}*/
+.flexslider p {
+	margin-bottom:0;
+	color: #FFF;
+}
+.flex-prev {
+	/*left: 20px;*/
+}
+/* Styles for the Contact (webform) */
+/* ### global ### */
+.submitted {display:none;}
+#contact_us {
+    padding: 0.8666666%;
+}
+#contact_us .float_clr {
+	clear: both;
+}
+#contact_us .webform {
+	border: 1px solid #fff;
+	padding: .8666666%;
+}
+#contact_us .webform textarea {
+}
+#contact_us .webform #edit-submit:hover {
+	
+}
+/* ### global end ### */
+/* Styles for the Contact (webform) END */
+
+/* GMAP/Location */
+/*.location-locations-wrapper  {
+	color: green;*/
+}
+.gmap-popup {
+	background: #fff;
+}
+.gmap-popup .node-title {
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.gmap-popup .node-title a {
+	text-decoration: none;
+	color: #ff4400;
+}
+.gmap-popup p {
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+.gmap-popup .location-locations-header {
+	color: blue;
+	margin-bottom: 0px;
+	padding-bottom: 0;
+	font-size: 15px;
+	font-weight: bold;
+}
+.gmap-popup .location-locations-wrapper {
+	color: #666;
+}
+.gmap-popup .map-link {
+	display: none;
+}
+/* node plot forms styles */
+.node-plot-form  input {
+	border: 1px solid #FF4400;
+	-moz-border-radius:5px;
+	border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+}
+.node-plot-form  select{
+	border: 1px solid #FF4400;
+	-moz-border-radius:5px;
+	border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+}
+.container-inline-date .date-padding {
+	padding: 0;
+}
+.container-inline-date > .form-item {
+	border: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.filter-help {
+	float: none;
+	padding: 0;
+}
+.node-plot-form .vertical-tabs {
+	border: none;
+}
+/* gmap location form styles */
+.location .form-item input {
+	width: 18em;
+}
+.location_auto_country {
+	width: 18em;
+}
+/* tracking view forms styles */
+#views-exposed-form-tracking-page select, #views-exposed-form-tracking-revised-no4-page select, #views-exposed-form-tracking-revised-no4-page  input, #views-exposed-form-tracking-no-2-page select, #views-exposed-form-tracking-no-2-page  input {
+	border: 1px solid #FF4400;
+	-moz-border-radius:5px;
+	border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+}
+.page-tracking-no-04 h1 {
+	display: none;
+}
+.container-inline-date .form-item, .container-inline-date .form-item input {
+   width: 85%;
+}
+#views-exposed-form-tracking-page select, #views-exposed-form-tracking-revised-no4-page select, #views-exposed-form-tracking-no-2-page select {
+	max-width: 175px;
+}
+/* fine print [privacy policy, terms & conditions] */
+#fine_print h3 {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	font-size: 16px;
+}
+/* front page  */
+.view-all-activity {
+	/*display:none;*/
+}
+.page-node-46 .title { /* hides title of the home page node on local */
+	display: none;
+}
+.page-node-43 .title { /* hides title of the home page node on live */
+	display: none;
+}
+/* generic */
+.flt_l {
+	float: left;
+}
+.flt_r {
+	float: right;
+}
+.footer_p_width {
+	/*width: 300px;*/
+
+}
+/* front page */
+img#logo {
+	width: 100%;
+}
+h3.home_page_block_hd {
+	font-size: 1.9em;
+}
+p.home_page_block_para {
+	font-size: 1.2em;
+}
+
+.home_page_block_btn {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	background: -moz-linear-gradient(
+		top,
+		#a3a3a3 0%,
+		#3b3b3b 50%,
+		#242424 50%,
+		#000000);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#a3a3a3),
+		color-stop(0.50, #3b3b3b),
+		color-stop(0.50, #242424),
+		to(#000000));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,1),
+		0px 1px 0px rgba(255,255,255,0.2);
+}
+
+/*.home_page_block_btn:hover {
+ 	color: #ff4400;
+}*/
+.home_page_block_btn a, .home_page_block_btn a:hover {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	padding: 10px 20px;
+}
+.home_page_block_btn a:hover {
+	color: #ff4400;
+}
+/* Views - Recent Sightings
+.view-test-view .views-row h2.node-title {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: normal;
+}
+.view-test-view .views-row h2.node-title a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.view-test-view .views-row h3.location-locations-header, .node-plot h3.location-locations-header {
+	background-color: transparent !important;
+}
+.view-test-view .views-row-even, .view-test-view .views-row-odd {
+	margin: 10px 1% 0 1%;
+	border: 1px solid #333;
+	background-color: #000;
+	padding: 10px;
+}
+
+.view-test-view .views-row-odd {
+	background-color: transparent;
+} */
+/* fixes for Plot nodes */
+h2.node-title {
+	color: #fff;
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+h2.node-title a {
+	color: #fff;
+	text-decoration: none;
+	/*font-size: 0.7em;*/
+}
+ul.inline li {
+   padding: 0;
+}
+.block_img_holder {
+	position: relative;
+	margin:0.7em;
+	border: 1px solid #666666;	
+	border-radius: 7px; 
+	-moz-border-radius: 7px; 
+	-webkit-border-radius: 7px;
+	overflow: hidden;
+}
+.block_img_holder .posn_type { /*this is a fix for Safari & other mobile devices. This will force Safari to roud corners; by using the 'clear:both;" attribute.*/
+	overflow: hidden;
+	clear: both;
+	border-radius: 7px; 
+	-moz-border-radius: 7px; 
+	-webkit-border-radius: 7px;
+}
+.block_img_holder .posn_type .title_holder {
+	background: url("../images/content_bg.png");
+	padding: 0.2em 0.4em;
+	bottom: 0;
+	overflow: hidden;
+	text-align: left;
+	position: absolute;
+	width:100%;
+}
+.block_img_holder .title_holder h4 {
+	line-height: 1.5em;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+.block_img_holder .title_holder p {
+	line-height: 1.2em;
+	font-size: 1.1em;
+	font-weight: normal;
+}
+.block_img_holder img.block_img  {
+	width: 100%;
+}
