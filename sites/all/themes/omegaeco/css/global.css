@@ -640,3 +640,11 @@ ul.inline li {
 .block_img_holder img.block_img  {
 	width: 100%;
 }
+
+/* ==================
+Media*/
+.media-youtube-player {
+	max-width: 100%;
+	height: auto;
+	border: red dashed 1px;
+}
