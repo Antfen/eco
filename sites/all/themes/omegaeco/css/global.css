@@ -644,7 +644,7 @@ ul.inline li {
 /* ==================
 Media*/
 .media-youtube-player {
-	max-width: 100%;
-	height: auto;
+	width: 100%;
+	min-height: 100%;
 	border: red dashed 1px;
 }
