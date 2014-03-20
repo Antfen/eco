@@ -358,7 +358,7 @@ version = '1.x'
 
 ; CSS GRID SYSTEMS
 
-grids[omegaeco_default][name] = My new 27 Cols Grid (OMG!
+grids[omegaeco_default][name] = My new 27 Cols Grid (OMG!)
 grids[omegaeco_default][layouts][wide] = Wide
 grids[omegaeco_default][columns][27] = 27 Columns
 
