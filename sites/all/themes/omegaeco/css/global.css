@@ -167,7 +167,7 @@ h2.block-title {
 #block-menu-menu-accordion ul.menu ul {
     margin:0;
     padding:0;
-    /*display:none;*/
+    display:none;
 }
 #block-menu-menu-accordion ul.menu ul li a {
     text-indent:0;

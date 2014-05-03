@@ -21,11 +21,11 @@ Drupal.behaviors.yourfunction = {
              $(menuid+' ul.menu li.expand').click(function (event) {    
                  event.preventDefault();
          
-          /*=== Hides sub menu for mobile ===*//*if ($(this).siblings('ul').is( ":visible" )){
+          /*=== Hides sub menu for mobile ===*/if ($(this).siblings('ul').is( ":visible" )){
           $(this).siblings('ul').slideUp('fast'); 
                  } else {          
           $(this).siblings('ul').slideDown('fast'); 
-         }*//*=== sub menu for mobile ends ===*/
+         }/*=== sub menu for mobile ends ===*/
          
          
          $(this).parent('ul').find('li').each(function( index ) {

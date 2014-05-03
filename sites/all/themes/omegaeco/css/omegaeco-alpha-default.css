@@ -1,4 +1,6 @@
-/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile 
+
+layout). */
 
 #block-menu-menu-accordion {
 	
@@ -9,9 +11,9 @@
     position: relative;
 }
 #block-menu-menu-accordion li ul {
-   	/*left: 0px;
+   	left: 0px;
     position: absolute !important;
-    z-index: 999;*/
+    z-index: 999;
 }
 
 #block-menu-menu-accordion ul.menu li a {
@@ -45,7 +47,9 @@
 
 /* ================================= */
 #block-menu-menu-accordion ul.menu li a:after {
-	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#333),color-stop(48%,#444),color-stop(100%,#000));
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop
+
+(0%,#333),color-stop(48%,#444),color-stop(100%,#000));
 	background-image: -webkit-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
 	background-image: -moz-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
 	background-image: -ms-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
@@ -65,7 +69,9 @@ display: none;
 }
 #block-menu-menu-accordion ul.menu ul li a:after {
 	/*background-color: #333;*/
-	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#333),color-stop(48%,#444),color-stop(100%,#000));
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop
+
+(0%,#333),color-stop(48%,#444),color-stop(100%,#000));
 	background-image: -webkit-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
 	background-image: -moz-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
 	background-image: -ms-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
@@ -81,8 +87,8 @@ display: none;
 /* ========================================== */
 
 #block-menu-menu-accordion ul.menu ul {
-	position: absolute;
-	left:0;
+	/*position: absolute;
+	left:0;*/
 	width: 200px;
 	background-color: #000;
 	z-index: 999;
@@ -98,7 +104,9 @@ display: none;
 	
  
 }
-#block-menu-menu-accordion ul.menu ul li a, #block-menu-menu-accordion ul.menu ul li a:hover {
+#block-menu-menu-accordion ul.menu ul li a, #block-menu-menu-accordion ul.menu ul li 
+
+a:hover {
     line-height: 0.9em;
 	/*font-size: 1.0em;*/
 	text-align: left;
@@ -118,13 +126,27 @@ display: none;
 /* ### Zone styles ###*/
 .zone-branding { 
 	background: rgba(68,68,68,1);
-	background: -moz-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(68,68,68,1)), color-stop(50%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
-	background: -webkit-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
-	background: -o-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
-	background: -ms-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
-	background: linear-gradient(to bottom, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#000000', GradientType=0 );
+	background: -moz-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba
+
+(0,0,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba
+
+(68,68,68,1)), color-stop(50%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, 
+
+rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba
+
+(0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba
+
+(0,0,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, 
+
+rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', 
+
+endColorstr='#000000', GradientType=0 );
 }
 /* Styles for the Contact (webform) */
 /* ### alpha default ### */
