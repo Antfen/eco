@@ -641,9 +641,22 @@ ul.inline li {
 	width: 100%;
 }
 
-/* ==================
-Media*/
+/* === Media ===*/
 .media-youtube-player {
-	width: 100%;
-	min-height: 100%;
+	max-width: 100%;
+	/*min-height: 100%;*/
+}
+
+.view-media span img { /*width of video thumb*/
+	max-width: 400px;
+	height:auto;
+	width:100%;
+	margin-top:7px;
+	margin-bottom:7px;
+	border: 1px solid #666;
+    -moz-border-radius:7px;
+    border-radius: 7px; 
+    -moz-border-radius: 7px; 
+    -webkit-border-radius: 7px;
+    overflow: hidden;
 }

@@ -1,10 +1,6 @@
-/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile 
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 
-layout). */
-
-#block-menu-menu-accordion {
-	
-}
+#block-menu-menu-accordion { }
 
 #block-menu-menu-accordion li {
     float: left;
@@ -47,9 +43,8 @@ layout). */
 
 /* ================================= */
 #block-menu-menu-accordion ul.menu li a:after {
-	background-image: -webkit-gradient(linear,left top,left bottom,color-stop
-
-(0%,#333),color-stop(48%,#444),color-stop(100%,#000));
+	background-color: #333;
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop (0%,#333),color-stop(48%,#444),color-stop(100%,#000));
 	background-image: -webkit-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
 	background-image: -moz-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
 	background-image: -ms-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
@@ -63,15 +58,13 @@ layout). */
 	width: 1px;
 	}
 #block-menu-menu-accordion ul.menu li:last-child a:after {
-content: " ";
-display: none;
+/*content: " ";
+display: none;*/
 
 }
 #block-menu-menu-accordion ul.menu ul li a:after {
-	/*background-color: #333;*/
-	background-image: -webkit-gradient(linear,left top,left bottom,color-stop
-
-(0%,#333),color-stop(48%,#444),color-stop(100%,#000));
+	/*background-color: #333;
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop (0%,#333),color-stop(48%,#444),color-stop(100%,#000));
 	background-image: -webkit-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
 	background-image: -moz-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
 	background-image: -ms-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
@@ -82,7 +75,7 @@ display: none;
 	height: 2.5em;
 	top: 1px;
 	right: 1px;
-	width: 1px;
+	width: 1px;*/
 	}
 /* ========================================== */
 
