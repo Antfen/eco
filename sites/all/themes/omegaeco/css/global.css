@@ -643,8 +643,8 @@ ul.inline li {
 
 /* === Media ===*/
 .media-youtube-player {
-	max-width: 100%;
-	/*min-height: 100%;*/
+	width: 100%;
+	max-width: 640px
 }
 
 .view-media span img { /*width of video thumb*/

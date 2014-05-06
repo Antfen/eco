@@ -58,8 +58,8 @@
 	width: 1px;
 	}
 #block-menu-menu-accordion ul.menu li:last-child a:after {
-/*content: " ";
-display: none;*/
+	content: " ";
+	display: none;
 
 }
 #block-menu-menu-accordion ul.menu ul li a:after {
