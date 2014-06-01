@@ -80,8 +80,6 @@
 /* ========================================== */
 
 #block-menu-menu-accordion ul.menu ul {
-	/*position: absolute;
-	left:0;*/
 	width: 200px;
 	background-color: #000;
 	z-index: 999;
@@ -94,52 +92,27 @@
 	float: none;
 	margin-top: 0;
 	padding-top: 0;
-	
- 
 }
-#block-menu-menu-accordion ul.menu ul li a, #block-menu-menu-accordion ul.menu ul li 
-
-a:hover {
+#block-menu-menu-accordion ul.menu ul li a, #block-menu-menu-accordion ul.menu ul li a:hover {
     line-height: 0.9em;
-	/*font-size: 1.0em;*/
 	text-align: left;
 	color: #ccc;
-	/*border-radius: 0;
-	-moz-border-radius: 0;
-	-webkit-border-radius: 0;
-	-webkit-box-shadow: 0;
-	box-shadow: 0;*/
 	background-color: transparent;
- 
 }
 #block-menu-menu-accordion ul.menu li ul li a:hover {
     text-decoration: none;
- 
 }
 /* ### Zone styles ###*/
 .zone-branding { 
 	background: rgba(68,68,68,1);
-	background: -moz-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba
-
-(0,0,0,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba
-
-(68,68,68,1)), color-stop(50%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
-	background: -webkit-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, 
-
-rgba(0,0,0,1) 100%);
-	background: -o-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba
-
-(0,0,0,1) 100%);
-	background: -ms-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba
-
-(0,0,0,1) 100%);
-	background: linear-gradient(to bottom, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, 
-
-rgba(0,0,0,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', 
-
-endColorstr='#000000', GradientType=0 );
+	background: -moz-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba (68,68,68,1)), color-stop(50%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#000000', GradientType=0 );
+	/*behavior: url(sites/all/themes/omegaeco/css/PIE.htc);*/
 }
 /* Styles for the Contact (webform) */
 /* ### alpha default ### */
@@ -190,8 +163,18 @@ endColorstr='#000000', GradientType=0 );
 /* ### alpha default end ### */
 /* Styles for the Contact (webform) END */
 
-/* ==================
-Media*/
+
+/* ### Home page styles ### */
+
+#block-block-2, #block-block-3, #block-block-4, #block-block-9, #block-block-10 {
+	text-align: left;
+}
+
+.home_page_block_btn {
+	/*text-align: left;*/
+}
+
+/* ### Media ### */
 .media-youtube-player {
 	/*width: 640px;
 	height: 360px;

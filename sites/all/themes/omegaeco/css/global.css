@@ -1,6 +1,5 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
-
 h1, h2, h3, h4, h5, h6, p, ul, li, a {
     font-family: Arial
 }
@@ -34,7 +33,6 @@ body p {
 	color: #fff;
 	margin-bottom: 10px;
 }
-
 a:link, a:visited, li a.active {
     color: #ff4400;
     text-decoration: underline;
@@ -42,44 +40,9 @@ a:link, a:visited, li a.active {
 a:hover {
 	text-decoration: none;
 }
-@font-face {
-    font-family: 'compacta_bd_btbold';
-    src: url('http://localhost/eco/sites/all/themes/omegaeco/fonts/compctab-webfont.eot');
-    src: url('http://localhost/eco/sites/all/themes/omegaeco/fonts/compctab-webfont.eot?#iefix') format('embedded-opentype'),
-         url('http://localhost/eco/sites/all/themes/omegaeco/fonts/compctab-webfont.woff') format('woff'),
-         url('http://localhost/eco/sites/all/themes/omegaeco/fonts/compctab-webfont.ttf') format('truetype'),
-         url('http://localhost/eco/sites/all/themes/omegaeco/fonts/compctab-webfont.svg#compacta_bd_btbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 #section-header{
-	/*background-color: #fff;padding: 7px 0 10px;
-	background: -moz-linear-gradient(center top , #464646, #000000) repeat scroll 0 0 transparent;
-    box-shadow: 1px 1px 2px #000000;*/
     min-height: 58px;
-	
-	
-	/*background-image: linear-gradient(bottom, rgb(70,70,70) 6%, rgb(0,0,0) 57%);
-	background-image: -o-linear-gradient(bottom, rgb(70,70,70) 6%, rgb(0,0,0) 57%);
-	background-image: -moz-linear-gradient(bottom, rgb(70,70,70) 6%, rgb(0,0,0) 57%);
-	background-image: -webkit-linear-gradient(bottom, rgb(70,70,70) 6%, rgb(0,0,0) 57%);
-	background-image: -ms-linear-gradient(bottom, rgb(70,70,70) 6%, rgb(0,0,0) 57%);*/
-
-	/*background-image: -webkit-gradient(
-		linear,
-		left bottom,
-		left top,
-		color-stop(0.06, rgb(70,70,70)),
-		color-stop(0.57, rgb(0,0,0))
-	);*/
-
 }
-.region-branding {
-	/*margin-top: 10px;*/
-}
-
 .site-slogan {
 	color: #FF9900;
 	font-size: 1.4em;
@@ -88,7 +51,6 @@ a:hover {
 .site-name  a {
 	color: #FF4400;
 }
-
 .breadcrumb a {
 	color: #ff4400;
 	text-decoration: none;
@@ -100,9 +62,6 @@ h2.block-title {
 
 /* ### responsive menu ### */
 #zone-menu-wrapper {
-    /*
-    fix for ie z-index problem, add this on the top container that holds your menu block
-    */
     position:relative;
     z-index:2
 }
@@ -133,8 +92,6 @@ h2.block-title {
 	text-align: left;
 	font-size: 1.2em;
 	font-weight:normal;
-	/*-webkit-box-shadow: inset 1px 1px 7px 1px rgba(51, 51, 51, .5);
-	box-shadow: inset 1px 1px 7px 1px rgba(51, 51, 51, .5); */
 	-webkit-box-shadow:  1px 1px 7px 1px rgba(51, 51, 51, .5);
     box-shadow:  1px 1px 7px 1px rgba(51, 51, 51, .5);
 }
@@ -148,8 +105,6 @@ h2.block-title {
 	color: #fff;
 }
 #block-menu-menu-accordion ul.menu li span.over {
-    /*background:#CCC;
-    color: #000000;*/
     display: block;
     float: right;
     height: 33px;
@@ -157,12 +112,9 @@ h2.block-title {
     padding: 0 0.5em;
     text-align: center;
     cursor:pointer;
-	/*border:1px solid #666;*/
 }
 #block-menu-menu-accordion ul.menu li span.over:hover {
-    /*background:#FCD705;*/
     background-color: none;
-    /*color:#FFF*/
 }
 #block-menu-menu-accordion ul.menu ul {
     margin:0;
@@ -181,7 +133,6 @@ h2.block-title {
 #block-menu-menu-accordion ul.menu ul li a.last {
     border-bottom: none;
 }
-/* ################# */
 #block-menu-menu-accordion ul.menu li span.over {
 display: block;
 float: right;
@@ -196,16 +147,13 @@ margin: 9px 10px 0 0;
 #block-menu-menu-accordion ul.menu li span.down {
 background: transparent url(../images/menu_closed.png) center left no-repeat;
 }
-
 #block-menu-menu-accordion ul.menu li span.up {
 background: transparent url(../images/menu_expanded.png) center left no-repeat;
 }
-
-/* ################# */
-
-
-
 /* ### User menu ### */
+#block-system-user-menu {
+	text-align: center;
+}
 #block-system-user-menu ul li, #block-menu-menu-logged-in-console ul li {
 	list-style: none;
 	margin-top: 0.1em;
@@ -215,7 +163,6 @@ background: transparent url(../images/menu_expanded.png) center left no-repeat;
 }
 #block-system-user-menu ul li.first .leaf, #block-menu-menu-logged-in-console ul li.first .leaf {
 	margin-top: 0;
-
 }
 #block-system-user-menu ul li a, #block-menu-menu-logged-in-console ul li a {
 	font-family: Arial, Helvetica, sans-serif;
@@ -250,6 +197,7 @@ background: transparent url(../images/menu_expanded.png) center left no-repeat;
 	text-shadow:
 		0px -1px 0px rgba(000,000,000,1),
 		0px 1px 0px rgba(255,255,255,0.2);
+		behavior: url(sites/all/themes/omegeco/css/PIE.htc);
 }
 #block-system-user-menu ul li a, #block-system-user-menu ul li a:hover, #block-menu-menu-logged-in-console ul li a, #block-menu-menu-logged-in-console ul li a:hover {
 	text-decoration: none;
@@ -259,39 +207,36 @@ background: transparent url(../images/menu_expanded.png) center left no-repeat;
 #block-system-user-menu ul li a:hover, #block-menu-menu-logged-in-console ul li a:hover {
 	color: #ff4400;
 }
-/* ### */
+/* ### Zone styles ###*/
 .zone-preface, .zone-content, .zone-footer, .zone-postscript  { 
 	margin-top: 15px;
 	margin-bottom: 20px;
 	padding-top: 15px;
-	/*padding-bottom: 20px;*/
-	/*opacity:0.8;*/
-	-moz-border-radius:12px;
 	border-radius: 7px; 
 	-moz-border-radius: 7px; 
-	-webkit-border-radius: 7px; 
-	/*box-shadow: 1px 1px 2px #000000;*/
+	-webkit-border-radius: 7px;
 	background: url("../images/content_bg_v2.png");
+	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
 }
-
 .zone-branding, .zone-postscript { 
-	-webkit-border-radius: 0px 0px 12px 12px;
-	border-radius: 0px 0px 12px 12px;
 	padding-top: 1em;
 	padding-bottom: 0.9em;
-}
-.zone-branding { 
-	background-color: #222;
+	-moz-border-radius: 0px 0px 12px 12px; 
+	-webkit-border-radius: 0px 0px 12px 12px;
+	border-radius: 0px 0px 12px 12px;	
+	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
 }
 .zone-menu { 
 	-webkit-border-radius: 0px 0px 12px 12px;
 	border-radius: 0px 0px 12px 12px;
 	background: url("../images/content_bg_v2.png");
+	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
 }
 .zone-content { 
 	-webkit-border-radius: 12px 12px 0px 0px;
 	border-radius: 12px 12px 0px 0px;
 	margin-bottom: 0;
+	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
 }
 .zone-postscript { 
 	padding-top: 1em;
@@ -300,7 +245,6 @@ background: transparent url(../images/menu_expanded.png) center left no-repeat;
 }
 li.pager-previous {width:60px;}
 h1 #page-title .title {padding-bottom:0;}
-/*#block-block-3.block .block-block .block-3 .block-block-3 .odd{ background-color:#ff4400;}*/
 
 #zone-preface .block, #region-sidebar-first .block, #region-content .block ,#region-sidebar-second .block ,#region-footer-first .block ,#zone-postscript .block, #block-system-user-menu, #block-menu-menu-logged-in-console {
 	clear:both;/*Forces Safari & other mobile devices to round corners*/
@@ -312,10 +256,10 @@ h1 #page-title .title {padding-bottom:0;}
 	-webkit-border-radius: 7px;
 	background: url("../images/content_bg.png");
 	overflow: hidden;
+	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
 }
 #zone-preface .block h3, #region-sidebar-first .block h3, #region-content .block h3, #region-sidebar-second .block h3, #region-footer-first .block h3, #zone-postscript .block h3, #block-system-user-menu h3 {
-	background-color: #000000;
-    margin: -10px -10px 0;
+	margin: -10px -10px 0;
     padding: 5px 5px 6px 10px;
     font-weight: normal;
     font-style: normal;
@@ -342,38 +286,11 @@ h3.location-locations-header {
 	
 }
 
-
-/*### home page slider ###*/
-/*#transbody {
-	display: none;
-}
-#transpager {
-	display: none;
-}
-#trbody {
-	display: none;
-}
-#trlink  *{
-	display: none;
-}*/
-/*#trlink  {
-	display: none;
-}
-.flex-control-nav {
-display: none;
-}
-#trbody p {
-	color: #ff0000;
-}*/
 .flexslider p {
 	margin-bottom:0;
 	color: #FFF;
 }
-.flex-prev {
-	/*left: 20px;*/
-}
 /* Styles for the Contact (webform) */
-/* ### global ### */
 .submitted {display:none;}
 #contact_us {
     padding: 0.8666666%;
@@ -387,16 +304,8 @@ display: none;
 }
 #contact_us .webform textarea {
 }
-#contact_us .webform #edit-submit:hover {
-	
-}
-/* ### global end ### */
 /* Styles for the Contact (webform) END */
-
 /* GMAP/Location */
-/*.location-locations-wrapper  {
-	color: green;*/
-}
 .gmap-popup {
 	background: #fff;
 }
@@ -506,22 +415,29 @@ display: none;
 	/*width: 300px;*/
 
 }
-/* front page */
+
+/* ### Home page styles ### */
+
 img#logo {
 	width: 100%;
 }
+
+.home_page_block {
+	text-align: center;
+}
+
 h3.home_page_block_hd {
 	font-size: 1.9em;
 }
 p.home_page_block_para {
 	font-size: 1.2em;
 }
-
 .home_page_block_btn {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #ffffff;
-	background: -moz-linear-gradient(
+	text-align: center;
+	/*background: -moz-linear-gradient(
 		top,
 		#a3a3a3 0%,
 		#3b3b3b 50%,
@@ -532,28 +448,26 @@ p.home_page_block_para {
 		from(#a3a3a3),
 		color-stop(0.50, #3b3b3b),
 		color-stop(0.50, #242424),
-		to(#000000));
+		to(#000000));*/
+	background: rgba(68,68,68,1);
+	background: -moz-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba (68,68,68,1)), color-stop(50%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#000000', GradientType=0 );
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
-	border: 1px solid #000000;
-	-moz-box-shadow:
-		0px 1px 3px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(255,255,255,0.6);
-	-webkit-box-shadow:
-		0px 1px 3px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(255,255,255,0.6);
-	box-shadow:
-		0px 1px 3px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(255,255,255,0.6);
+	border: 1px solid #666666;
 	text-shadow:
 		0px -1px 0px rgba(000,000,000,1),
 		0px 1px 0px rgba(255,255,255,0.2);
+	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
+	overflow: hidden;
 }
 
-/*.home_page_block_btn:hover {
- 	color: #ff4400;
-}*/
 .home_page_block_btn a, .home_page_block_btn a:hover {
 	color: #ffffff;
 	text-decoration: none;
@@ -563,31 +477,6 @@ p.home_page_block_para {
 .home_page_block_btn a:hover {
 	color: #ff4400;
 }
-/* Views - Recent Sightings
-.view-test-view .views-row h2.node-title {
-	font-size: 1.2em;
-	line-height: 1.2em;
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: normal;
-}
-.view-test-view .views-row h2.node-title a {
-	color: #ffffff;
-	text-decoration: none;
-}
-.view-test-view .views-row h3.location-locations-header, .node-plot h3.location-locations-header {
-	background-color: transparent !important;
-}
-.view-test-view .views-row-even, .view-test-view .views-row-odd {
-	margin: 10px 1% 0 1%;
-	border: 1px solid #333;
-	background-color: #000;
-	padding: 10px;
-}
-
-.view-test-view .views-row-odd {
-	background-color: transparent;
-} */
 /* fixes for Plot nodes */
 h2.node-title {
 	color: #fff;
@@ -661,4 +550,14 @@ h2.field-content a {
     -moz-border-radius: 7px; 
     -webkit-border-radius: 7px;
     overflow: hidden;
+}
+
+/* === Footer Menu ===*/
+#section-footer ul.menu {
+	text-align: center;
+	width: 100%;
+}
+#section-footer ul.menu li {
+	float: left;
+	list-style: none;
 }
