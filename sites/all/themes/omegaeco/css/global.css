@@ -169,7 +169,7 @@ background: transparent url(../images/menu_expanded.png) center left no-repeat;
 	font-size: 12px;
 	color: #ffffff;
 	text-align: center;
-	background: -moz-linear-gradient(
+	/*background: -moz-linear-gradient(
 		top,
 		#a3a3a3 0%,
 		#3b3b3b 50%,
@@ -180,12 +180,12 @@ background: transparent url(../images/menu_expanded.png) center left no-repeat;
 		from(#a3a3a3),
 		color-stop(0.50, #3b3b3b),
 		color-stop(0.50, #242424),
-		to(#000000));
+		to(#000000));*/
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	border: 1px solid #000000;
-	-moz-box-shadow:
+	/*-moz-box-shadow:
 		0px 1px 3px rgba(000,000,000,0.5),
 		inset 0px 0px 1px rgba(255,255,255,0.6);
 	-webkit-box-shadow:
@@ -193,11 +193,27 @@ background: transparent url(../images/menu_expanded.png) center left no-repeat;
 		inset 0px 0px 1px rgba(255,255,255,0.6);
 	box-shadow:
 		0px 1px 3px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(255,255,255,0.6);
+		inset 0px 0px 1px rgba(255,255,255,0.6);*/
+text-shadow:
+		0px -1px 0px rgba(000,000,000,1),
+		0px 1px 0px rgba(255,255,255,0.2);
+background: rgba(68,68,68,1);
+	background: -moz-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba (68,68,68,1)), color-stop(50%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#000000', GradientType=0 );
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #666666;
 	text-shadow:
 		0px -1px 0px rgba(000,000,000,1),
 		0px 1px 0px rgba(255,255,255,0.2);
-		behavior: url(sites/all/themes/omegeco/css/PIE.htc);
+	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
+	overflow: hidden;
 }
 #block-system-user-menu ul li a, #block-system-user-menu ul li a:hover, #block-menu-menu-logged-in-console ul li a, #block-menu-menu-logged-in-console ul li a:hover {
 	text-decoration: none;
@@ -246,7 +262,7 @@ background: transparent url(../images/menu_expanded.png) center left no-repeat;
 li.pager-previous {width:60px;}
 h1 #page-title .title {padding-bottom:0;}
 
-#zone-preface .block, #region-sidebar-first .block, #region-content .block ,#region-sidebar-second .block ,#region-footer-first .block ,#zone-postscript .block, #block-system-user-menu, #block-menu-menu-logged-in-console {
+#zone-preface .block, #region-sidebar-first .block, #region-content .block ,#region-sidebar-second .block ,#region-footer-first .block ,#zone-postscript .block, /*#block-system-user-menu,*/ #block-menu-menu-logged-in-console {
 	clear:both;/*Forces Safari & other mobile devices to round corners*/
 	padding: 10px;
 	border: 1px solid #666666;
