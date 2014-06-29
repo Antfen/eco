@@ -133,7 +133,7 @@
 }
 #contact_us .webform select {
 	width:80%;
-	max-width: 80%;
+	max-width: 50%;
 	min-height: 30px;
 }
 #contact_us .webform select option {
@@ -141,14 +141,14 @@
 }
 #contact_us .webform input {
 	width:80%;
-	max-width: 80%;
+	max-width: 50%;
 	min-height: 30px;
 }
 #contact_us .webform textarea {
-	max-width: 80%;
+	max-width: 50%;
 }
 #contact_us .webform .grippie {
-	max-width: 80%;
+	max-width: 50%;
 	border-width: 0;
 }
 #contact_us .webform #edit-submit {
