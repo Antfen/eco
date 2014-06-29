@@ -117,43 +117,42 @@
 /* Styles for the Contact (webform) */
 /* ### alpha default ### */
 .submitted {display:none;}
-#contact_us * {
-	/*margin:0;
-	padding: 0;*/
-}
-#contact_us .webform {
-}
-#contact_us p {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	color: #fff;
+#contact_us {
+    padding: 0.8666666%;
 }
 #contact_us .float_clr {
 	clear: both;
 }
+#contact_us .webform {
+	border: 1px solid #fff;
+	padding: .8666666%;
+}
 #contact_us .webform label {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	color: #FFF;
-	position: absolute;
+	padding-bottom: 7px;
+	font-size: 14px;
 }
-#contact_us .webform-component-textarea label {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	color: #FFF;
-	position: relative;
+#contact_us .webform select {
+	width:80%;
+	max-width: 80%;
+	min-height: 30px;
 }
-#contact_us .webform .form-item {
-	padding: 7px 0;
+#contact_us .webform select option {
+	font-size: 14px;
 }
-#contact_us .webform input, #contact_us .webform select {
-	margin-left: 230px;
+#contact_us .webform input {
+	width:80%;
+	max-width: 80%;
+	min-height: 30px;
 }
-#contact_us .webform .form-submit {
-	position: relative;
+#contact_us .webform textarea {
+	max-width: 80%;
+}
+#contact_us .webform .grippie {
+	max-width: 80%;
+	border-width: 0;
 }
 #contact_us .webform #edit-submit {
-	margin-left:0;
+	max-width: 15%;
 }
 /* ### User menu ### */
 #block-system-user-menu ul li, #block-menu-menu-logged-in-console ul li {

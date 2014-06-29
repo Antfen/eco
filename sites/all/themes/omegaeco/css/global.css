@@ -318,7 +318,27 @@ h3.location-locations-header {
 	border: 1px solid #fff;
 	padding: .8666666%;
 }
+#contact_us .webform label {
+	padding-bottom: 7px;
+	font-size: 14px;
+}
+#contact_us .webform select {
+	width:100%;
+	min-height: 30px;
+}
+#contact_us .webform input {
+	width:100%;
+	min-height: 30px;
+}
 #contact_us .webform textarea {
+	width:100%;
+}
+#contact_us .webform .grippie {
+	width:100%;
+	border-width: 0;
+}
+#contact_us .webform #edit-submit {
+	width:100%;
 }
 /* Styles for the Contact (webform) END */
 /* GMAP/Location */
