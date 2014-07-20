@@ -184,7 +184,7 @@ $databases = array (
     array (
       'database' => 'ecorhythm',
       'username' => 'root',
-      'password' => '',
+      'password' => 'admin_1',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',

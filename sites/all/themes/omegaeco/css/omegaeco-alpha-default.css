@@ -152,7 +152,8 @@
 	border-width: 0;
 }
 #contact_us .webform #edit-submit {
-	max-width: 15%;
+	width: 130px;
+	border: green 2px solid;
 }
 /* ### User menu ### */
 #block-system-user-menu ul li, #block-menu-menu-logged-in-console ul li {
