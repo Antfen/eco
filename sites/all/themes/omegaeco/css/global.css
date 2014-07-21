@@ -227,7 +227,7 @@ background: rgba(68,68,68,1);
 	color: #ff4400;
 }
 /* ### Zone styles ###*/
-.zone-preface, .zone-content, .zone-footer, .zone-postscript  { 
+.zone-preface, .zone-branding, .zone-content, .zone-footer, .zone-postscript  { 
 	margin-top: 15px;
 	margin-bottom: 20px;
 	padding-top: 15px;
@@ -244,6 +244,9 @@ background: rgba(68,68,68,1);
 	-webkit-border-radius: 0px 0px 12px 12px;
 	border-radius: 0px 0px 12px 12px;	
 	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
+}
+.zone-branding { 
+	margin-top: 0;
 }
 .zone-menu { 
 	-webkit-border-radius: 0px 0px 12px 12px;
