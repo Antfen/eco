@@ -414,21 +414,18 @@ h3.location-locations-header {
 .location_auto_country {
 	width: 18em;
 }
-/* tracking view forms styles */
-#views-exposed-form-tracking-page select, #views-exposed-form-tracking-revised-no4-page select, #views-exposed-form-tracking-revised-no4-page  input, #views-exposed-form-tracking-no-2-page select, #views-exposed-form-tracking-no-2-page  input {
-	border: 1px solid #FF4400;
+/* View exposed forms styles (BEF) */
+.views-exposed-form select, .views-exposed-form input {
+	border: 1px solid #666;
 	-moz-border-radius:5px;
 	border-radius: 5px; 
 	-webkit-border-radius: 5px; 
 }
-.page-tracking-no-04 h1 {
-	display: none;
+.views-exposed-form select {
+	max-width: 175px;
 }
 .container-inline-date .form-item, .container-inline-date .form-item input {
    width: 85%;
-}
-#views-exposed-form-tracking-page select, #views-exposed-form-tracking-revised-no4-page select, #views-exposed-form-tracking-no-2-page select {
-	max-width: 175px;
 }
 /* fine print [privacy policy, terms & conditions] */
 #fine_print h3 {

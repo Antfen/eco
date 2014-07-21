@@ -18,7 +18,6 @@
          hide($content['field_media']);
          print render($content);
          ?>
-
       <style type="text/css">
          .grid-12 .eco_video .home_page_block_btn {
          max-width: 640px;
@@ -27,23 +26,19 @@
          .grid-12 .eco_video .links {
          padding-top: 15px;
          }
-         .field-item p {
-         /* width:640px;*/
+         .grid-12 .eco_video.field-item p {
+         width:640px;
          }
-         .grid-12 .eco_video {
-         border: green 1px solid;
-         }
-         
       </style>
       <div class="eco_video">
-      <div class="clearfix">
-         <?php print render($content['field_media']); ?>
-         <?php if (!empty($content['links'])): ?>
-         <nav class="links node-links clearfix"><?php print render($content['links']); ?></nav>
-         <?php endif; ?>
-         <div class="home_page_block_btn"><a href="../video">Return to video list</a></div>
-         <?php print render($content['comments']); ?>
-      </div>
+         <div class="clearfix">
+            <?php print render($content['field_media']); ?>
+            <?php if (!empty($content['links'])): ?>
+            <nav class="links node-links clearfix"><?php print render($content['links']); ?></nav>
+            <?php endif; ?>
+            <div class="home_page_block_btn"><a href="../video">Return to video list</a></div>
+            <?php print render($content['comments']); ?>
+         </div>
       </div>
    </div>
 </article>
