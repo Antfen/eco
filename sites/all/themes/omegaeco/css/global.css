@@ -568,7 +568,15 @@ ul.inline li {
 .block_img_holder img.block_img  {
 	width: 100%;
 }
-
+/* === Footer Menu ===*/
+#section-footer ul.menu {
+	text-align: center;
+	width: 100%;
+}
+#section-footer ul.menu li {
+	float: left;
+	list-style: none;
+}
 /* === Media ===*/
 .media-youtube-player {
 	width: 100%;
@@ -590,14 +598,8 @@ h2.field-content a {
     -webkit-border-radius: 7px;
     overflow: hidden;
 }
-
-/* === Footer Menu ===*/
-#section-footer ul.menu {
-	text-align: center;
-	width: 100%;
-}
-#section-footer ul.menu li {
-	float: left;
-	list-style: none;
+/* === Flex slider == */
+.flex-nav-container p {
+	padding-top: 8px;
 }
 /*###################################*/
