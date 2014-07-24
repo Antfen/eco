@@ -586,7 +586,7 @@ h2.field-content a {
 	text-decoration: none;
 }
 .view-media span img { /*width of video thumb*/
-	max-width: 400px;
+	width: 100%;
 	height:auto;
 	width:100%;
 	margin-top:7px;
