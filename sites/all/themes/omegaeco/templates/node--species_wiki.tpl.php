@@ -41,6 +41,7 @@
         }
         .grid-7 .wiki_col_left img, .grid-4 .wiki_col_right img {
           width: 100%;
+          height:auto;
           border: 1px solid #666;
           -moz-border-radius:7px;
           border-radius: 7px; 
@@ -86,6 +87,7 @@
       <style type="text/css">
       .grid-4 .wiki_col_right img {
         width: 100%;
+        height:auto;
       }
       .grid-4 .wiki_col_right .field-label {
         font-size; 12px;
@@ -94,6 +96,8 @@
       .grid-4 .wiki_col_right img {
           padding: 1.5999% 0;
           background-color: #297ACC;
+          width: 100%;
+          height:auto;
         }
       </style>
 
@@ -104,7 +108,13 @@
 <?php print render($content['field_key_fact_diet']); ?>
 
 
+
+
 </div><!-- closes wiki_col_right -->
+
+
+ <div class="home_page_block_btn"><a href="../wiki">Return to wiki</a></div>
+
 </div><!-- closes grid-4 -->
 
 

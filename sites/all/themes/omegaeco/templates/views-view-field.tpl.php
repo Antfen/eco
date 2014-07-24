@@ -65,7 +65,8 @@
 			padding: 0;
 			}
 		.view-wiki .views-row .views-field-field-species-img-spec img {
-			width:100%;
+			width: 100%;
+        	height:auto;
 			background-color: #297ACC;
 			margin-top: 2%;
 			border: 1px solid #666;
