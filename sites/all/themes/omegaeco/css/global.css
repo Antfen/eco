@@ -620,13 +620,13 @@ ul.social-networks li.twitter {
 	width: 33.333%;
 	background-size: 25%;
 }
-#block-menu-menu-test-menu {
+#block-menu-menu-test-menu, #block-menu-menu-footer-menu {
 	margin:10px 0 0;
 	padding-top: 25px;
 	padding-bottom: 15px;
 	border-top: 1px solid #666;
 }
-#block-menu-menu-test-menu ul.menu li {
+#block-menu-menu-test-menu ul.menu li, #block-menu-menu-footer-menu ul.menu li {
 	margin-left: 0;
 	margin-top: 5px;
 	float: none;
@@ -652,11 +652,11 @@ ul.social-networks li.twitter {
 	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
 	overflow: hidden;
 }
-#block-menu-menu-test-menu ul.menu li a, #block-menu-menu-test-menu ul.menu li a:hover {
+#block-menu-menu-test-menu ul.menu li a, #block-menu-menu-footer-menu ul.menu li a, #block-menu-menu-test-menu ul.menu li a:hover, #block-menu-menu-footer-menu ul.menu li a:hover{
 	color: #fff;
 	text-decoration: none;
 	line-height: 36px;
 }
-#block-menu-menu-test-menu ul.menu li a:hover {
+#block-menu-menu-test-menu ul.menu li a:hover, #block-menu-menu-footer-menu ul.menu li a:hover {
 	color: #ddd;
 }
