@@ -133,14 +133,14 @@ ul.social-networks li.twitter {
 	background-size: 75%;
 	margin-right: 0
 }
-#block-menu-menu-test-menu {
+#block-menu-menu-footer-menu {
 	margin:10px 0 0;
 	padding-top: 25px;
 	padding-bottom: 15px;
 	padding-left: 0;
 	border-top: 1px solid #666;
 }
-#block-menu-menu-test-menu ul.menu li {
+#block-menu-menu-footer-menu ul.menu li {
 	margin-left: 0;
 	float: left;
 	margin-right: 2%;
@@ -154,11 +154,11 @@ ul.social-networks li.twitter {
 	border: none;
 	text-shadow: none;
 }
-#block-menu-menu-test-menu ul.menu li a, #block-menu-menu-test-menu ul.menu li a:hover {
+#block-menu-menu-footer-menu ul.menu li a, #block-menu-menu-footer-menu ul.menu li a:hover {
 	color: #fff;
 	text-decoration: none;
 }
-#block-menu-menu-test-menu ul.menu li a:hover {
+#block-menu-menu-footer-menu ul.menu li a:hover {
 	color: #ddd;
 }
 /* ### Zone styles ###*/
