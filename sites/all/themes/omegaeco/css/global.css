@@ -227,7 +227,7 @@ background: rgba(68,68,68,1);
 	color: #ff4400;
 }
 /* ### Zone styles ###*/
-.zone-preface, .zone-branding, .zone-content, .zone-footer, .zone-postscript  { 
+.zone-preface, .zone-branding, .zone-content, /*.zone-footer,*/ .zone-postscript  { 
 	margin-top: 15px;
 	margin-bottom: 20px;
 	padding-top: 15px;
@@ -268,7 +268,7 @@ background: rgba(68,68,68,1);
 li.pager-previous {width:60px;}
 h1 #page-title .title {padding-bottom:0;}
 
-#zone-preface .block, #region-sidebar-first .block, #region-content .block ,#region-sidebar-second .block ,#region-footer-first .block ,#zone-postscript .block, /*#block-system-user-menu,*/ #block-menu-menu-logged-in-console {
+#zone-preface .block, #region-sidebar-first .block, #region-content .block ,#region-sidebar-second .block /*,#region-footer-first .block*/ ,#zone-postscript .block, /*#block-system-user-menu,*/ #block-menu-menu-logged-in-console {
 	clear:both;/*Forces Safari & other mobile devices to round corners*/
 	padding: 10px;
 	border: 1px solid #666666;
@@ -304,10 +304,10 @@ h3.location-locations-header {
 #block-menu-menu-footer-menu li {
 	list-style: none;
 }
-.region-branding-inner {
-	
+#section-footer {
+	background-color: #000;
 }
-
+/* Flexslider */
 .flexslider p {
 	margin-bottom:0;
 	color: #FFF;
@@ -451,7 +451,8 @@ h3.location-locations-header {
 	float: right;
 }
 .footer_p_width {
-	/*width: 300px;*/
+	color: #ddd;
+	font-size: 10px;
 
 }
 
@@ -476,18 +477,6 @@ p.home_page_block_para {
 	font-size: 14px;
 	color: #ffffff;
 	text-align: center;
-	/*background: -moz-linear-gradient(
-		top,
-		#a3a3a3 0%,
-		#3b3b3b 50%,
-		#242424 50%,
-		#000000);
-	background: -webkit-gradient(
-		linear, left top, left bottom,
-		from(#a3a3a3),
-		color-stop(0.50, #3b3b3b),
-		color-stop(0.50, #242424),
-		to(#000000));*/
 	background: rgba(68,68,68,1);
 	background: -moz-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba (68,68,68,1)), color-stop(50%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
@@ -603,3 +592,71 @@ h2.field-content a {
 	padding-top: 8px;
 }
 /*###################################*/
+/* Footer Menu */
+ul.social-networks {
+	margin: 0;
+	padding-top: 30px;
+}
+ul.social-networks li {
+	float:left;
+	list-style: none;
+}
+ul.social-networks li a {
+	display: block;
+	height: 48px;
+}
+ul.social-networks li.facebook {
+	background: url(http://localhost/eco/sites/all/themes/omegaeco/social-networks/facebook.png) no-repeat center 0;
+	width: 33.333%;
+	background-size: 75%;
+}
+ul.social-networks li.youtube {
+	background: url(http://localhost/eco/sites/all/themes/omegaeco/social-networks/youtube.png) no-repeat center 0;
+	width: 33.333%;
+	background-size: 50%;
+}
+ul.social-networks li.twitter {
+	background: url(http://localhost/eco/sites/all/themes/omegaeco/social-networks/twitter.png) no-repeat center 0;
+	width: 33.333%;
+	background-size: 25%;
+}
+#block-menu-menu-test-menu {
+	margin:10px 0 0;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	border-top: 1px solid #666;
+}
+#block-menu-menu-test-menu ul.menu li {
+	margin-left: 0;
+	margin-top: 5px;
+	float: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	text-align: center;
+	background: rgba(68,68,68,1);
+	background: -moz-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba (68,68,68,1)), color-stop(50%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#000000', GradientType=0 );
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #666666;
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,1),
+		0px 1px 0px rgba(255,255,255,0.2);
+	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
+	overflow: hidden;
+}
+#block-menu-menu-test-menu ul.menu li a, #block-menu-menu-test-menu ul.menu li a:hover {
+	color: #fff;
+	text-decoration: none;
+	line-height: 36px;
+}
+#block-menu-menu-test-menu ul.menu li a:hover {
+	color: #ddd;
+}
