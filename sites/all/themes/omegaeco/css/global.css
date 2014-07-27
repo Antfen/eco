@@ -606,17 +606,17 @@ ul.social-networks li a {
 	height: 48px;
 }
 ul.social-networks li.facebook {
-	background: url(http://localhost/eco/sites/all/themes/omegaeco/social-networks/facebook.png) no-repeat center 0;
+	background: url(http://www.ecorhythm.com/sites/all/themes/omegaeco/social-networks/facebook.png) no-repeat center 0;
 	width: 33.333%;
 	background-size: 75%;
 }
 ul.social-networks li.youtube {
-	background: url(http://localhost/eco/sites/all/themes/omegaeco/social-networks/youtube.png) no-repeat center 0;
+	background: url(http://www.ecorhythm.com/sites/all/themes/omegaeco/social-networks/youtube.png) no-repeat center 0;
 	width: 33.333%;
 	background-size: 50%;
 }
 ul.social-networks li.twitter {
-	background: url(http://localhost/eco/sites/all/themes/omegaeco/social-networks/twitter.png) no-repeat center 0;
+	background: url(http://www.ecorhythm.com/sites/all/themes/omegaeco/social-networks/twitter.png) no-repeat center 0;
 	width: 33.333%;
 	background-size: 25%;
 }

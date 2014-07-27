@@ -105,6 +105,7 @@
 /* Footer Menu */
 ul.social-networks {
 	margin: 0;
+	bo
 }
 ul.social-networks li {
 	float:left;
@@ -116,19 +117,19 @@ ul.social-networks li a {
 	height: 40px;
 }
 ul.social-networks li.facebook {
-	background: url(http://localhost/eco/sites/all/themes/omegaeco/social-networks/facebook.png) no-repeat;
+	background: url(http://www.ecorhythm.com/sites/all/themes/omegaeco/social-networks/facebook.png) no-repeat;
 	width: 14%;
 	background-size: 75%;
 	margin-right: 15px
 }
 ul.social-networks li.youtube {
-	background: url(http://localhost/eco/sites/all/themes/omegaeco/social-networks/youtube.png) no-repeat;
+	background: url(http://www.ecorhythm.com/sites/all/themes/omegaeco/social-networks/youtube.png) no-repeat;
 	width: 10%;
 	background-size: 75%;
 	margin-right: 30px;
 }
 ul.social-networks li.twitter {
-	background: url(http://localhost/eco/sites/all/themes/omegaeco/social-networks/twitter.png) no-repeat;
+	background: url(http://www.ecorhythm.com/sites/all/themes/omegaeco/social-networks/twitter.png) no-repeat;
 	width: 5%;
 	background-size: 75%;
 	margin-right: 0
