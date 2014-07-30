@@ -537,22 +537,26 @@ ul.inline li {
 }
 .block_img_holder .posn_type .title_holder {
 	background: url("../images/content_bg.png");
-	padding: 0.2em 0.4em;
+	padding: 0.2em 0;
 	bottom: 0;
 	overflow: hidden;
 	text-align: left;
 	position: absolute;
-	width:auto;
+	width: 100%;
 }
 .block_img_holder .title_holder h4 {
 	line-height: 1.5em;
 	font-size: 1.5em;
 	font-weight: normal;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
 }
 .block_img_holder .title_holder p {
 	line-height: 1.2em;
 	font-size: 1.1em;
 	font-weight: normal;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
 }
 .block_img_holder img.block_img  {
 	width: 100%;
