@@ -233,6 +233,46 @@ ul.social-networks li.twitter {
 	/*text-align: left;*/
 }
 
+
+.bogus-wrapper h2 {
+	margin-bottom: 10px;
+	padding-left: 0;
+	font-size: 2.0em;
+	text-align: left;
+	font-weight: normal;
+}
+.bogus-wrapper h3 {
+	margin-bottom: 10px;
+	padding-left: 0;
+	font-size: 1.9em;
+	text-align: left;
+	font-weight: normal;
+}
+.bogus a, .bogus a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+.bogus .grid-4  h3{
+	margin-top: 0;
+	padding-top: 0;
+	font-size: 1.9em;
+	font-weight: normal;
+}
+.bogus .grid-4  h4 {
+	margin-top: 0;
+	padding: 0 10px 10px;
+	font-size: 1.2em;
+	font-weight: normal;
+}
+.bogus .grid-4 {
+	margin-left: 0;
+	margin-right: 6px;
+	border: 1px solid #666;
+}
+.bogus .no-margin-right {
+	margin-right: 0;
+}
+
 /* ### Media ### */
 .media-youtube-player {
 	/*width: 640px;
