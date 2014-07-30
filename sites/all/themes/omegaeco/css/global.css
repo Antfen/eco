@@ -542,7 +542,7 @@ ul.inline li {
 	overflow: hidden;
 	text-align: left;
 	position: absolute;
-	width:100%;
+	width: auto;
 }
 .block_img_holder .title_holder h4 {
 	line-height: 1.5em;
