@@ -60,9 +60,7 @@ a:hover {
 h2.block-title {
 	color: #ff0000;
 }
-hr {
-	border: 1px solid #666;
-}
+
 /* fixes */
 .no_pad_left {
 	padding-left: 0;
@@ -290,7 +288,7 @@ h1 #page-title .title {padding-bottom:0;}
 }
 #zone-preface .block h3, #region-sidebar-first .block h3, #region-content .block h3, #region-sidebar-second .block h3, #region-footer-first .block h3, #zone-postscript .block h3, #block-system-user-menu h3 {
 	/*margin: -10px -10px 0;*/
-    padding: 5px 5px 6px 10px;
+    padding: 5px 5px 6px 0;
     font-weight: normal;
     font-style: normal;
     line-height: 1.1em;
