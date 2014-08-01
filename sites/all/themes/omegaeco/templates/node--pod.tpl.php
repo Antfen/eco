@@ -21,44 +21,37 @@
          ?>
 
      <style type="text/css">
-     .basic_page {
+     .pod {
       padding-top: 12px;
       padding-bottom: 12px;
       }
-     .basic_page img {
+     .pod img {
       width: 100%;
+      border: 1px solid #666666;
+      border-radius: 7px;
+      -moz-border-radius: 7px;
+      -webkit-border-radius: 7px;
+      overflow: hidden;
       }
-      .basic_page .grid-5 h3 {
+      .pod .grid-5 h3 {
       border-bottom: 1px solid #666;
       margin-bottom: 20px;
       }
-      .basic_page .grid-6 {
+      .pod .grid-6 {
       float: right;
       }
-
      </style>
 
      
 
-       <div class="basic_page">
+       <div class="pod">
 
          <div class="grid-5"><?php print render($content['field_text_pod']); ?></div>
-
-          
              <div class="grid-6">
-               <!--  <?php print render($content['field_image_basic_page']); ?> -->
-               <!--  <?php if (!empty($content['links'])): ?>
-                <nav class="links node-links clearfix"><?php print render($content['links']); ?></nav>
-                <?php endif; ?> -->
-                
-                <!-- <?php print render($content['comments']); ?> -->
+               <?php print render($content['field_image_pod']); ?>
              </div>
-          
-
-
            <div class="clearfix"></div>
         </div>
      
-
    </div>
 </article>
