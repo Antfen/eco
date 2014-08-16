@@ -32,6 +32,7 @@
       -moz-border-radius: 7px;
       -webkit-border-radius: 7px;
       overflow: hidden;
+      height: auto;
       }
       .pod .grid-5 h3 {
       border-bottom: 1px solid #666;
