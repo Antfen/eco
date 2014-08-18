@@ -11,8 +11,7 @@
   
   <?php if (isset($page['content'])) : ?>
     <?php print render($page['content']); ?>
-  <?php endif; ?>  
-  <h1>this is from page.tpl</h1>
+  <?php endif; ?>
   <?php if (isset($page['footer'])) : ?>
     <?php print render($page['footer']); ?>
   <?php endif; ?>

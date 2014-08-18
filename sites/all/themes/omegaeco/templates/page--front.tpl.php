@@ -22,15 +22,6 @@
 
  ?>
 
-
-   
-
-	<h2 style="color:#ff4400;">my test content from page--front-tpl</h2>
-
-
-
-  
-  
   <?php if (isset($page['footer'])) : ?>
     <?php print render($page['footer']); ?>
   <?php endif; ?>
