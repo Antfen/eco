@@ -41,6 +41,12 @@ a:link, a:visited, li a.active {
 a:hover {
 	text-decoration: none;
 }
+img {
+	width: 100%;
+	height: auto;
+}
+
+/* ==== */
 #section-header{
     min-height: 58px;
 }
