@@ -19,40 +19,12 @@
          hide($content['field_text_pod']);
          print render($content);
          ?>
-
-     <style type="text/css">
-     .pod {
-      padding-top: 12px;
-      padding-bottom: 12px;
-      }
-     .pod img {
-      width: 100%;
-      border: 1px solid #666666;
-      border-radius: 7px;
-      -moz-border-radius: 7px;
-      -webkit-border-radius: 7px;
-      overflow: hidden;
-      height: auto;
-      }
-      .pod .grid-5 h3 {
-      border-bottom: 1px solid #666;
-      margin-bottom: 20px;
-      }
-      .pod .grid-6 {
-      float: right;
-      }
-     </style>
-
-     
-
-       <div class="pod">
-
-         <div class="grid-5"><?php print render($content['field_text_pod']); ?></div>
-             <div class="grid-6">
-               <?php print render($content['field_image_pod']); ?>
-             </div>
-           <div class="clearfix"></div>
-        </div>
-     
+      <div id="pod">
+         <div class="grid-6 margin_right"><?php print render($content['field_text_pod']); ?></div>
+         <div class="grid-6">
+            <?php print render($content['field_image_pod']); ?>
+         </div>
+         <div class="clearfix"></div>
+      </div>
    </div>
 </article>

@@ -46,10 +46,10 @@ a:hover {
 	text-decoration: none;
 }
 img { /* assists responsive images */
-	width: 100%;
-	height: auto;
+	/*width: 100%;
+	height: auto;*/
 }
-/* fixes */
+/* ### fixes ### */
 .no_pad_left {
 	padding-left: 0;
 }
@@ -322,12 +322,12 @@ h3.location-locations-header {
 #section-footer {
 	background-color: #000;
 }
-/* Flexslider */
+/* ### Flexslider ### */
 .flexslider p {
 	margin-bottom:0;
 	color: #FFF;
 }
-/* Styles for Content Types */
+/* #### Styles for Content Types #### */
 /* Styles for the Contact (webform) */
 .submitted {
 	display:none;
@@ -399,7 +399,7 @@ h3.location-locations-header {
 	margin: 0;
 	max-width: 100%;
 }
-/* Styles for Media (video) content types */
+/* Styles for Media (video) content type */
 #eco_video {
 	padding: 0.8666666%;
 }
@@ -420,7 +420,29 @@ h3.location-locations-header {
 	margin-top: 2%;
 	border: 0;
 }
-/* Styles for the Contact (webform) END */
+/* Styles for Pod content type */
+#pod {
+	 padding: 0.8666666%;
+}
+#pod .grid-6 {
+	max-width: 100%;
+	margin: 0;
+}
+#pod .grid-6 img {
+     width: 100%;
+     border: 1px solid #666666;
+     border-radius: 7px;
+     -moz-border-radius: 7px;
+     -webkit-border-radius: 7px;
+     overflow: hidden;
+     height: auto;
+}
+#pod .grid-6 h3 {
+      border-bottom: 1px solid #666;
+      margin-bottom: 20px;
+      margin-right: 0;
+      }
+/* ------ Styles for Content Types end ------*/
 /* GMAP/Location */
 .gmap-popup {
 	background: #fff;
