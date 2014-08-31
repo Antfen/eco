@@ -327,11 +327,13 @@ h3.location-locations-header {
 	margin-bottom:0;
 	color: #FFF;
 }
+/* Styles for Content Types */
 /* Styles for the Contact (webform) */
-.submitted {display:none;
+.submitted {
+	display:none;
 }
 .webform-client-form .form-item-captcha-response label {
-  display: none;
+  	display: none;
 }
 #contact_us {
     padding: 0.8666666%;
@@ -388,12 +390,35 @@ h3.location-locations-header {
 #contact_us .morish h3.more-pad-top {
 	padding-top: 20px;
 }
-#contact_us .morish .contact-us-email{
-	font-size: 35px;
+#contact_us .morish .contact-us-email a, #contact_us .morish .contact-us-email a:hover {
+	font-size: 2.1em;
+	color: #fff;
+	text-decoration: none;
 }
 #contact_us .grid-6 {
 	margin: 0;
 	max-width: 100%;
+}
+/* Styles for Media (video) content types */
+#eco_video {
+	padding: 0.8666666%;
+}
+#eco_video .grid-7 {
+	max-width: 100%;
+	margin: 0;
+}
+#eco_video .grid-7 .video_holder {
+	border: 1px solid #666;
+	padding: 1.8666666%;
+	margin-top: 2%;
+}
+#eco_video .grid-7 .video_holder.margin_right {
+	margin-right: 0;
+}
+#eco_video .grid-5 {
+	max-width: 100%;
+	margin-top: 2%;
+	border: 0;
 }
 /* Styles for the Contact (webform) END */
 /* GMAP/Location */

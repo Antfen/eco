@@ -180,20 +180,40 @@ ul.social-networks li.twitter {
 	min-height: 35px;
 }
 #contact_us .webform {
-	/*border: 1px solid #666;
-	padding: 2.8666666%;*/
 	margin-right: 2%;
 }
 #contact_us .morish {
-	/*border: 1px solid #666;
-	padding: 2.8666666%;*/
 	margin-top: 0;
 	margin-left: 2%;
 }
 #contact_us .grid-6 {
-	/*margin: 0;*/
 	max-width: 50%;
 }
+/* Styles for Media (video) content types */
+#eco_video {
+	padding: 0.8666666%;
+}
+#eco_video .grid-7 {
+	max-width: 60%;
+	margin: 0;
+}
+#eco_video .grid-7 .video_holder {
+	border: 1px solid #666;
+	padding: 1.8666666%;
+	margin-top: 0;
+}
+#eco_video .grid-7 .video_holder.margin_right {
+	margin-right: 4%;
+}
+#eco_video .grid-5 {
+	max-width: 40%;
+	margin: 0;
+}
+#eco_video .grid-5 .video_holder {
+	border: 1px solid #666;
+	padding: 1.8666666%;
+}
+
 /* ### User menu ### */
 #block-system-user-menu ul li, #block-menu-menu-logged-in-console ul li {
 	float: none;
