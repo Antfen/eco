@@ -18,27 +18,22 @@
          hide($content['field_media']);
          print render($content);
          ?>
-      <style type="text/css">
-         .grid-12 .eco_video .home_page_block_btn {
-         max-width: 640px;
-         margin-top: 15px;
-         }
-         .grid-12 .eco_video .links {
-         padding-top: 15px;
-         }
-         .grid-12 .eco_video.field-item p {
-         width:640px;
-         }
-      </style>
-      <div class="eco_video">
-         <div class="clearfix">
-            <?php print render($content['field_media']); ?>
-            <?php if (!empty($content['links'])): ?>
-            <nav class="links node-links clearfix"><?php print render($content['links']); ?></nav>
-            <?php endif; ?>
-            <div class="home_page_block_btn"><a href="../video">Return to video list</a></div>
-            <?php print render($content['comments']); ?>
+      <div id="eco_video">
+         <div class="grid-7">
+            <div class="video_holder margin_right">
+               <?php print render($content['field_media']); ?>
+               <!-- <?php if (!empty($content['links'])): ?> -->
+               <!-- <nav class="links node-links clearfix"><?php print render($content['links']); ?></nav> -->
+               <?php endif; ?>
+            </div>
          </div>
+         <div class="grid-5">
+            <div class="video_holder">
+               <div class="home_page_block_btn"><a href="../video">Return to video list</a></div>
+               <!-- <?php print render($content['comments']); ?> -->
+            </div>
+         </div>
+         <div class="clearfix"></div>
       </div>
    </div>
 </article>
