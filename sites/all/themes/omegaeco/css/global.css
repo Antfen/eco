@@ -38,7 +38,9 @@ body {
 	color: #fff;
 }
 @media only screen and (min-width : 320px) and (max-width : 480px) {
-	background: url(../images/wave_alt2.jpg) no-repeat center center fixed;
+	/*background: url(../images/wave_alt2.jpg) no-repeat center center fixed;*/
+	background: none;
+
 }
 body p {
 	color: #fff;
@@ -52,8 +54,8 @@ a:hover {
 	text-decoration: none;
 }
 img { /* assists responsive images */
-	/*width: 100%;
-	height: auto;*/
+	width: 100%;
+	height: auto;
 }
 /* ### fixes ### */
 .no_pad_left {
@@ -447,7 +449,42 @@ h3.location-locations-header {
       border-bottom: 1px solid #666;
       margin-bottom: 20px;
       margin-right: 0;
-      }
+}
+/* Styles for Pod panel content type */
+#pod_panel {
+	 padding: 0.8666666%;
+	 position: relative;
+}
+#pod_panel .grid_12 {
+	max-width: 100%;
+	margin: 0;
+}
+#pod_panel img {
+     width: 100%;
+     border: 1px solid #666666;
+     border-radius: 7px;
+     -moz-border-radius: 7px;
+     -webkit-border-radius: 7px;
+     overflow: hidden;
+     height: auto;
+}
+#pod_panel h3 {
+      border-bottom: 1px solid #666;
+      margin-bottom: 20px;
+      margin-right: 0;
+}
+#pod_panel .title_holder {
+	/*background: url("../images/content_bg.png");*/
+	padding: 0.2em 0;
+	/*bottom: 0;*/
+	overflow: hidden;
+	text-align: left;
+	/*position: absolute;*/
+	width: 100%;
+}
+.my-slider-hm-page {
+	border: red 1px solid;
+}
 /* ------ Styles for Content Types end ------*/
 /* GMAP/Location */
 .gmap-popup {
