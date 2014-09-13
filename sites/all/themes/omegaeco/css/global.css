@@ -37,12 +37,8 @@ body {
     min-width: 100%;
 	color: #fff;
 }
-/*@media only screen and (min-width : 320px) and (max-width : 480px) {
-	background: url(../images/wave_alt2.jpg) no-repeat center center fixed;
-	background: none;*/
-}
 body p {
-	color: #fff;
+	color: #ffffff;
 	margin-bottom: 10px;
 }
 a:link, a:visited, li a.active {
