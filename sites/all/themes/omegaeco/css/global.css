@@ -40,7 +40,6 @@ body {
 /*@media only screen and (min-width : 320px) and (max-width : 480px) {
 	background: url(../images/wave_alt2.jpg) no-repeat center center fixed;
 	background: none;*/
-
 }
 body p {
 	color: #fff;
@@ -160,15 +159,15 @@ h2.block-title {
     border-bottom: none;
 }
 #block-menu-menu-accordion ul.menu li span.over {
-display: block;
-float: right;
-height: 21px;
-width: 32px;
-line-height: 30px;
-padding: 0 0.5em;
-text-align: center;
-cursor: pointer;
-margin: 9px 10px 0 0;
+	display: block;
+	float: right;
+	height: 21px;
+	width: 32px;
+	line-height: 30px;
+	padding: 0 0.5em;
+	text-align: center;
+	cursor: pointer;
+	margin: 9px 10px 0 0;
 }
 #block-menu-menu-accordion ul.menu li span.down {
 background: transparent url(../images/menu_closed.png) center left no-repeat;
@@ -191,53 +190,18 @@ background: transparent url(../images/menu_expanded.png) center left no-repeat;
 	margin-top: 0;
 }
 #block-system-user-menu ul li a, #block-menu-menu-logged-in-console ul li a {
+	background: url(../images/eco_button_bg_01.png) 0 0 repeat-x;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #ffffff;
 	text-align: center;
-	/*background: -moz-linear-gradient(
-		top,
-		#a3a3a3 0%,
-		#3b3b3b 50%,
-		#242424 50%,
-		#000000);
-	background: -webkit-gradient(
-		linear, left top, left bottom,
-		from(#a3a3a3),
-		color-stop(0.50, #3b3b3b),
-		color-stop(0.50, #242424),
-		to(#000000));*/
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	border: 1px solid #000000;
-	/*-moz-box-shadow:
-		0px 1px 3px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(255,255,255,0.6);
-	-webkit-box-shadow:
-		0px 1px 3px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(255,255,255,0.6);
-	box-shadow:
-		0px 1px 3px rgba(000,000,000,0.5),
-		inset 0px 0px 1px rgba(255,255,255,0.6);*/
-text-shadow:
-		0px -1px 0px rgba(000,000,000,1),
-		0px 1px 0px rgba(255,255,255,0.2);
-background: rgba(68,68,68,1);
-	background: -moz-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba (68,68,68,1)), color-stop(50%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
-	background: -webkit-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
-	background: -o-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
-	background: -ms-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
-	background: linear-gradient(to bottom, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#000000', GradientType=0 );
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
-	border: 1px solid #666666;
 	text-shadow:
 		0px -1px 0px rgba(000,000,000,1),
 		0px 1px 0px rgba(255,255,255,0.2);
+	border: 1px solid #666666;
 	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
 	overflow: hidden;
 }
@@ -288,11 +252,14 @@ background: rgba(68,68,68,1);
 	padding-bottom: 0.9em;
 	margin-top: 0;
 }
-li.pager-previous {width:60px;}
-h1 #page-title .title {padding-bottom:0;}
-
+li.pager-previous {
+	width:60px;
+}
+h1 #page-title .title {
+	padding-bottom:0;
+}
 #zone-preface .block, #region-sidebar-first .block, #region-content .block ,#region-sidebar-second .block /*,#region-footer-first .block*/ ,#zone-postscript .block, /*#block-system-user-menu,*/ #block-menu-menu-logged-in-console {
-	clear:both;/*Forces Safari & other mobile devices to round corners*/
+	clear:both; /*Forces Safari & other mobile devices to round corners*/
 	padding: 10px;
 	border: 1px solid #666666;
 	margin-bottom: 15px;
@@ -309,7 +276,6 @@ h1 #page-title .title {padding-bottom:0;}
     font-weight: normal;
     font-style: normal;
     line-height: 1.1em;
-
 }
 h3.location-locations-header {
 	background-color: transparent !important;
@@ -592,11 +558,8 @@ h3.location-locations-header {
 .footer_p_width {
 	color: #ddd;
 	font-size: 10px;
-
 }
-
 /* ### Home page styles ### */
-
 img#logo {
 	width: 100%;
 }
@@ -613,18 +576,11 @@ p.home_page_block_para {
 	font-size: 1.2em;
 }
 .home_page_block_btn {
+	background: url(../images/eco_button_bg_01.png) 0 0 repeat-x;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #ffffff;
 	text-align: center;
-	background: rgba(68,68,68,1);
-	background: -moz-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba (68,68,68,1)), color-stop(50%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
-	background: -webkit-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
-	background: -o-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
-	background: -ms-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
-	background: linear-gradient(to bottom, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#000000', GradientType=0 );
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
@@ -634,6 +590,14 @@ p.home_page_block_para {
 		0px 1px 0px rgba(255,255,255,0.2);
 	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
 	overflow: hidden;
+	/*background: rgba(68,68,68,1);
+	background: -moz-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba (68,68,68,1)), color-stop(50%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#000000', GradientType=0 );*/
 }
 
 .home_page_block_btn a, .home_page_block_btn a:hover {
@@ -710,7 +674,6 @@ ul.inline li {
 	float: left;
 	list-style: none;
 }
-
 .bogus-wrapper h2 {
 	margin-bottom: 10px;
 	padding-left: 0;
@@ -747,7 +710,6 @@ ul.inline li {
 	margin-right:0;
 	border: 1px solid #666;
 }
-
 /* === Media ===*/
 .media-youtube-player {
 	width: 100%;
@@ -809,6 +771,7 @@ ul.social-networks li.twitter {
 	border-top: 1px solid #666;
 }
 #block-menu-menu-test-menu ul.menu li, #block-menu-menu-footer-menu ul.menu li {
+	background: url(../images/eco_button_bg_01.png) 0 0 repeat-x;
 	margin-left: 0;
 	margin-top: 5px;
 	float: none;
@@ -816,14 +779,6 @@ ul.social-networks li.twitter {
 	font-size: 14px;
 	color: #ffffff;
 	text-align: center;
-	background: rgba(68,68,68,1);
-	background: -moz-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba (68,68,68,1)), color-stop(50%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
-	background: -webkit-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
-	background: -o-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
-	background: -ms-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
-	background: linear-gradient(to bottom, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#000000', GradientType=0 );
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
@@ -831,8 +786,16 @@ ul.social-networks li.twitter {
 	text-shadow:
 		0px -1px 0px rgba(000,000,000,1),
 		0px 1px 0px rgba(255,255,255,0.2);
-	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
 	overflow: hidden;
+	/*background: rgba(68,68,68,1);
+	background: -moz-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba (68,68,68,1)), color-stop(50%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#000000', GradientType=0 );
+	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);*/
 }
 #block-menu-menu-test-menu ul.menu li a, #block-menu-menu-footer-menu ul.menu li a, #block-menu-menu-test-menu ul.menu li a:hover, #block-menu-menu-footer-menu ul.menu li a:hover{
 	color: #fff;
