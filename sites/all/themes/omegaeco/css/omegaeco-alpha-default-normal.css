@@ -2,3 +2,16 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
  /* This file will hold styles that are loaded using the same media query as the wide grid. */
+body {
+	background-image: url('../images/background_image_breakpoints/bg_normal.jpg');
+	background-position: top left;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+	color: #fff;
+}

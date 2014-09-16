@@ -3,19 +3,16 @@
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
  *  and widescreen CSS files as appropriate. */
 
-/* Styles for the Contact (webform) */
-/* ### alpha default narrow ### */
-./*submitted {display:none;}
-
-#contact_us .float_clr {
-	clear: both;
+body {
+	background-image: url('../images/background_image_breakpoints/bg_narrow.jpg');
+	background-position: top left;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+	color: #fff;
 }
-#contact_us .webform label {
-	position: relative;
-}
-#contact_us .webform  select {
-   margin-left: 0px;
-}
-#contact_us .webform input {
-	margin-left: 0px;
-}*/
