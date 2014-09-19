@@ -11,7 +11,6 @@
     position: absolute !important;
     z-index: 999;
 }
-
 #block-menu-menu-accordion ul.menu li a {
     line-height: 1.2em;
 	font-size: 1.2em;
@@ -26,21 +25,18 @@
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
-
 #block-menu-menu-accordion ul.menu li a.active {
 	background: none;
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.2em;
 }
-
 #block-menu-menu-accordion ul.menu li a:hover {
 	background: none;
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.2em;
 }
-
 /* ================================= */
 #block-menu-menu-accordion ul.menu li a:after {
 	background-color: #333;
@@ -60,25 +56,8 @@
 #block-menu-menu-accordion ul.menu li:last-child a:after {
 	content: " ";
 	display: none;
-
 }
-#block-menu-menu-accordion ul.menu ul li a:after {
-	/*background-color: #333;
-	background-image: -webkit-gradient(linear,left top,left bottom,color-stop (0%,#333),color-stop(48%,#444),color-stop(100%,#000));
-	background-image: -webkit-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
-	background-image: -moz-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
-	background-image: -ms-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
-	background-image: -o-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
-	background-image: linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
-	content: " ";
-	position: absolute;
-	height: 2.5em;
-	top: 1px;
-	right: 1px;
-	width: 1px;*/
-	}
 /* ========================================== */
-
 #block-menu-menu-accordion ul.menu ul {
 	width: 200px;
 	background-color: #000;
@@ -87,7 +66,6 @@
 	-moz-border-radius: 7px;
 	-webkit-border-radius: 7px;
 }
-
 #block-menu-menu-accordion ul.menu ul li {
 	float: none;
 	margin-top: 0;
@@ -165,15 +143,6 @@ ul.social-networks li.twitter {
 .zone-branding { 
 	background: rgba(0,0,0,1);
 	margin-bottom: 0;
-	/*background: rgba(68,68,68,1);
-	background: -moz-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba (68,68,68,1)), color-stop(50%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
-	background: -webkit-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
-	background: -o-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
-	background: -ms-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
-	background: linear-gradient(to bottom, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#000000', GradientType=0 );
-	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);*/
 }
 /* #### Styles for Content Types #### */
 /* Styles for the Contact (webform) */
@@ -226,14 +195,20 @@ ul.social-networks li.twitter {
 	margin-right: 4%;
 }
 /* Styles for Home Panel page content type */
+.home-page-panel-pane_x3, .home-page-panel-pane_x3-right {
+	width: 28%;
+	float: left;
+	margin-right: 2%;
+}
+.home-page-panel-pane_x3-right {
+	margin-right: 0;
+}
 .home-page-panel-pane {
 	width: 49%;
-	/*border: red 1px solid;*/
 	float: left;
 }
 .home-page-panel-pane-right {
 	width: 49%;
-	/*border: red 1px solid;*/
 	float: right;
 }
 /* ------ Styles for Content Types end ------*/
@@ -243,59 +218,6 @@ ul.social-networks li.twitter {
 	width: auto;
 }
 /* ### Home page styles ### */
-
 #block-block-2, #block-block-3, #block-block-4, #block-block-9, #block-block-10 {
 	text-align: left;
 }
-
-.home_page_block_btn {
-	/*text-align: left;*/
-}
-
-
-.bogus-wrapper h2 {
-	margin-bottom: 10px;
-	padding-left: 0;
-	font-size: 2.0em;
-	text-align: left;
-	font-weight: normal;
-}
-.bogus-wrapper h3 {
-	margin-bottom: 10px;
-	padding-left: 0;
-	font-size: 1.9em;
-	text-align: left;
-	font-weight: normal;
-}
-.bogus a, .bogus a:hover {
-	text-decoration: none;
-	color: #fff;
-}
-.bogus .grid-4  h3{
-	margin-top: 0;
-	padding-top: 0;
-	font-size: 1.9em;
-	font-weight: normal;
-}
-.bogus .grid-4  h4 {
-	margin-top: 0;
-	padding: 0 10px 10px;
-	font-size: 1.2em;
-	font-weight: normal;
-}
-.bogus .grid-4 {
-	margin-left: 0;
-	margin-right: 6px;
-	border: 1px solid #666;
-}
-.bogus .no-margin-right {
-	margin-right: 0;
-}
-
-/* ### Media ### */
-.media-youtube-player {
-	/*width: 640px;
-	height: 360px;
-	border: green dashed 1px;*/
-}
-

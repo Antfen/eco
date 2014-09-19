@@ -28,13 +28,11 @@ body {
 	background-image: url('../images/background_image_breakpoints/bg_mobile.jpg');
 	background-position: top left;
 	background-attachment: fixed;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-    min-height: 100%;
-    min-width: 100%;
 	color: #fff;
 }
 body p {
@@ -210,7 +208,7 @@ background: transparent url(../images/menu_expanded.png) center left no-repeat;
 	color: #ff4400;
 }
 /* ### Zone styles ###*/
-.zone-preface, .zone-branding, .zone-content, /*.zone-footer,*/ .zone-postscript  { 
+.zone-preface, .zone-branding, .zone-content, .zone-postscript  { 
 	margin-top: 15px;
 	margin-bottom: 20px;
 	padding-top: 15px;
@@ -254,7 +252,7 @@ li.pager-previous {
 h1 #page-title .title {
 	padding-bottom:0;
 }
-#zone-preface .block, #region-sidebar-first .block, #region-content .block ,#region-sidebar-second .block /*,#region-footer-first .block*/ ,#zone-postscript .block, /*#block-system-user-menu,*/ #block-menu-menu-logged-in-console {
+#zone-preface .block, #region-sidebar-first .block, #region-content .block ,#region-sidebar-second .block ,#zone-postscript .block, #block-menu-menu-logged-in-console /*.panel-2col-bricks*/ {
 	clear:both; /*Forces Safari & other mobile devices to round corners*/
 	padding: 10px;
 	border: 1px solid #666666;
@@ -413,15 +411,16 @@ h3.location-locations-header {
       margin-right: 0;
 }
 /* Styles for Pod panel content type */
-#pod_panel {
-	 padding: 0.8666666%;
+.pod_panel {
+	 margin: 1.8666666%;
 	 position: relative;
+	 overflow: hidden;
 }
-#pod_panel .grid_12 {
-	max-width: 100%;
+.pod_panel .grid_12 {
+	/*max-width: 100%;*/
 	margin: 0;
 }
-#pod_panel img {
+.pod_panel img {
      width: 100%;
      border: 1px solid #666666;
      border-radius: 7px;
@@ -430,19 +429,103 @@ h3.location-locations-header {
      overflow: hidden;
      height: auto;
 }
-#pod_panel h3 {
+.pod_panel h3 {
       border-bottom: 1px solid #666;
       margin-bottom: 20px;
       margin-right: 0;
 }
-#pod_panel .title_holder {
-	/*background: url("../images/content_bg.png");*/
-	padding: 0.2em 0;
-	/*bottom: 0;*/
-	overflow: hidden;
+.pod_panel .title_holder {
+	background: url("../images/content_bg_v2.png");
+	bottom: 0;
 	text-align: left;
-	/*position: absolute;*/
+	position: absolute;
 	width: 100%;
+	z-index: 999;
+	overflow: hidden;
+	/*border-top: none;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	border-left: 1px solid #666666;*/
+	border-radius: 0 0 7px 7px;
+     -moz-border-radius: 0 0 7px 7px;
+     -webkit-border-radius: 0 0 7px 7px;
+}
+.pod_panel .title_holder h4, .pod_panel .title_holder p {
+	padding: 0.2em 0.5em;
+}
+.home-page-panel-pane h2.pane-title, .home-page-panel-pane-right h2.pane-title {
+	margin-bottom: 7px;
+	margin-left: 5px;
+}
+/* Styles for Home Panel page content type */
+.page-home-page-panel .breadcrumb {
+	display: none;
+}
+.panel-2col-bricks .panel-separator {
+	margin-bottom: 0;
+}
+.home-page-panel-pane, .home-page-panel-pane-right {
+	margin-top: 1.8666666%;
+}
+.home-page-panel-pane_intro .pod_panel {
+	display: none;
+}
+.home-page-panel-pane_intro h2 {
+	padding: 0.8666666% 0 0 0.8666666%;
+	margin: 0;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.9em;
+	line-height: 1.0em;
+}
+.home-page-panel-pane_intro p {
+	padding: 0;
+	margin-bottom: 0;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.2em;
+	/*line-height: 2.9em;*/
+	color: #ccc;
+}
+.home-page-panel-pane_x3, .home-page-panel-pane_x3-right {
+	padding: 1.8666666%;
+	margin-top: 0.8666666%;
+	margin-right: 0;
+	border-radius: 7px;
+	border: 1px solid #666;
+	background-color: #000;
+     -moz-border-radius: 7px;
+     -webkit-border-radius: 7px;
+     overflow: hidden;
+}
+.home-page-panel-pane_x3-right {
+	margin-right: 0;
+}
+.home-page-panel-pane_intro .title_holder, .home-page-panel-pane_x3 .title_holder, .home-page-panel-pane_x3-right .title_holder {
+	display: none;
+}
+ .home-page-panel-pane_x3 h2.pane-title, .home-page-panel-pane_x3-right h2.pane-title {
+	padding: 0 0 0 2%;
+	margin-bottom: 0;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.9em;
+	color: #ff9900;
+}
+.home-page-panel-pane, .home-page-panel-pane-right {
+	border-radius: 7px;
+	border: 1px solid #666;
+	background-color: #000;
+     -moz-border-radius: 7px;
+     -webkit-border-radius: 7px;
+     overflow: hidden;
+}
+.home-page-panel-pane h2.pane-title, .home-page-panel-pane-right h2.pane-title {
+	padding: 0.8666666% 0;
+	margin-bottom: 0;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.9em;
 }
 .my-slider-hm-page {
 	border: red 1px solid;
@@ -559,11 +642,9 @@ h3.location-locations-header {
 img#logo {
 	width: 100%;
 }
-
 .home_page_block {
 	text-align: center;
 }
-
 h3.home_page_block_hd {
 	font-size: 1.9em;
 	padding-left: 0;
@@ -586,16 +667,7 @@ p.home_page_block_para {
 		0px 1px 0px rgba(255,255,255,0.2);
 	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
 	overflow: hidden;
-	/*background: rgba(68,68,68,1);
-	background: -moz-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba (68,68,68,1)), color-stop(50%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
-	background: -webkit-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
-	background: -o-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
-	background: -ms-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
-	background: linear-gradient(to bottom, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#000000', GradientType=0 );*/
 }
-
 .home_page_block_btn a, .home_page_block_btn a:hover {
 	color: #ffffff;
 	text-decoration: none;
@@ -669,42 +741,6 @@ ul.inline li {
 #section-footer ul.menu li {
 	float: left;
 	list-style: none;
-}
-.bogus-wrapper h2 {
-	margin-bottom: 10px;
-	padding-left: 0;
-	font-size: 2.0em;
-	text-align: center;
-	font-weight: normal;
-}
-.bogus-wrapper h3 {
-	margin-bottom: 10px;
-	padding-left: 0;
-	font-size: 1.9em;
-	text-align: center;
-	font-weight: normal;
-}
-.bogus a, .bogus a:hover {
-	text-decoration: none;
-	color: #fff;
-}
-.bogus .grid-4  h3{
-	margin-top: 0;
-	padding-top: 0;
-	font-size: 1.9em;
-	font-weight: normal;
-}
-.bogus .grid-4  h4 {
-	margin-top: 0;
-	padding: 0 10px 10px;
-	font-size: 1.2em;
-	font-weight: normal;
-}
-.bogus .grid-4 {
-	margin-top: 3px;
-	margin-left:0;
-	margin-right:0;
-	border: 1px solid #666;
 }
 /* === Media ===*/
 .media-youtube-player {
@@ -783,15 +819,6 @@ ul.social-networks li.twitter {
 		0px -1px 0px rgba(000,000,000,1),
 		0px 1px 0px rgba(255,255,255,0.2);
 	overflow: hidden;
-	/*background: rgba(68,68,68,1);
-	background: -moz-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba (68,68,68,1)), color-stop(50%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
-	background: -webkit-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
-	background: -o-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
-	background: -ms-linear-gradient(top, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba (0,0,0,1) 100%);
-	background: linear-gradient(to bottom, rgba(68,68,68,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#000000', GradientType=0 );
-	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);*/
 }
 #block-menu-menu-test-menu ul.menu li a, #block-menu-menu-footer-menu ul.menu li a, #block-menu-menu-test-menu ul.menu li a:hover, #block-menu-menu-footer-menu ul.menu li a:hover{
 	color: #fff;
@@ -801,3 +828,4 @@ ul.social-networks li.twitter {
 #block-menu-menu-test-menu ul.menu li a:hover, #block-menu-menu-footer-menu ul.menu li a:hover {
 	color: #ddd;
 }
+
