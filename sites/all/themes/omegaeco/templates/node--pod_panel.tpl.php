@@ -15,16 +15,18 @@
          // We hide the comments and links now so that we can render them later.
          hide($content['comments']);
          hide($content['links']);
+         hide($content['body']);
          hide($content['field_image_pod_panel']);
          hide($content['field_description_pod_panel']);
          print render($content);
          ?>
-      <div id="pod_panel">
+   
+      <div class="pod_panel">
          <div class="grid_12"><?php print render($content['field_image_pod_panel']); ?>
-         
+            <div><?php print render($content['body']); ?></div>
             <div class="title_holder"><?php print render($content['field_description_pod_panel']); ?></div>
          </div>
-         <div class="clearfix"></div>
       </div>
+   
    </div>
 </article>
