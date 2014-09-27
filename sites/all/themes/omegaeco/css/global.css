@@ -252,7 +252,7 @@ li.pager-previous {
 h1 #page-title .title {
 	padding-bottom:0;
 }
-#zone-preface .block, #region-sidebar-first .block, #region-content .block ,#region-sidebar-second .block ,#zone-postscript .block, #block-menu-menu-logged-in-console /*.panel-2col-bricks*/ {
+#zone-preface .block, #region-sidebar-first .block, #region-content .block ,#region-sidebar-second .block ,#zone-postscript .block, #block-menu-menu-logged-in-console {
 	clear:both; /*Forces Safari & other mobile devices to round corners*/
 	padding: 10px;
 	border: 1px solid #666666;
@@ -263,6 +263,10 @@ h1 #page-title .title {
 	background: url("../images/content_bg.png");
 	overflow: hidden;
 	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
+}
+.page-home-page-panel #region-content .block {
+	background: none;
+	border: none;
 }
 #zone-preface .block h3, #region-sidebar-first .block h3, #region-content .block h3, #region-sidebar-second .block h3, #region-footer-first .block h3, #zone-postscript .block h3, #block-system-user-menu h3 {
 	/*margin: -10px -10px 0;*/
@@ -417,7 +421,7 @@ h3.location-locations-header {
 	 overflow: hidden;
 }
 .pod_panel .grid_12 {
-	/*max-width: 100%;*/
+	max-width: 100%;
 	margin: 0;
 }
 .pod_panel img {
@@ -442,10 +446,6 @@ h3.location-locations-header {
 	width: 100%;
 	z-index: 999;
 	overflow: hidden;
-	/*border-top: none;
-	border-right: 1px solid #666666;
-	border-bottom: 1px solid #666666;
-	border-left: 1px solid #666666;*/
 	border-radius: 0 0 7px 7px;
      -moz-border-radius: 0 0 7px 7px;
      -webkit-border-radius: 0 0 7px 7px;
