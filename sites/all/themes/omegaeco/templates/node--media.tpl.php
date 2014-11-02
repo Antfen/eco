@@ -21,10 +21,12 @@
       <div id="eco_video">
          <div class="grid-7">
             <div class="video_holder margin_right">
+               <div class="video-wrapper">
                <?php print render($content['field_media']); ?>
                <!-- <?php if (!empty($content['links'])): ?> -->
                <!-- <nav class="links node-links clearfix"><?php print render($content['links']); ?></nav> -->
                <?php endif; ?>
+               </div>
             </div>
          </div>
          <div class="grid-5">
