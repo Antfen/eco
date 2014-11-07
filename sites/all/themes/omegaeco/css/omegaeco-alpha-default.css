@@ -184,6 +184,30 @@ ul.social-networks li.twitter {
 	border: 1px solid #666;
 	padding: 1.8666666%;
 }
+/* Styles for Image Gallery content type */
+#eco_image_gallery {
+	padding: 0.8666666%;
+}
+#eco_image_gallery .grid-7 {
+	max-width: 60%;
+	margin: 0;
+}
+#eco_image_gallery .grid-7 .gallery_holder {
+	border: 1px solid #666;
+	padding: 1.8666666%;
+	margin-top: 0;
+}
+#eco_image_gallery .grid-7 .gallery_holder.margin_right {
+	margin-right: 4%;
+}
+#eco_image_gallery .grid-5 {
+	max-width: 40%;
+	margin: 0;
+}
+#eco_image_gallery .grid-5 .gallery_holder {
+	border: 1px solid #666;
+	padding: 1.8666666%;
+}
 /* Styles for Pod content type */
 #pod {
 	padding: 0.8666666%;
@@ -220,4 +244,13 @@ ul.social-networks li.twitter {
 /* ### Home page styles ### */
 #block-block-2, #block-block-3, #block-block-4, #block-block-9, #block-block-10 {
 	text-align: left;
+}
+/* ### View Image Galery styles ### */
+.view-image-gallery .views-row {
+    margin: 10px 1% 0px;
+    border: 1px solid #333;
+    background-color: #000;
+    padding: 10px;
+    width: 202px;
+    float: left;
 }
