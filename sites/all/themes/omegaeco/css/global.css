@@ -25,7 +25,7 @@ h5 {
 	margin-bottom: 0px;
 }
 body {
-	background-image: url('../images/background_image_breakpoints/bg_mobile.jpg');
+	/*background-image: url('../images/background_image_breakpoints/bg_mobile.jpg');
 	background-position: top left;
 	background-attachment: fixed;
 	background-repeat: repeat;
@@ -33,7 +33,7 @@ body {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	color: #fff;
+	color: #fff;*/
 }
 body p {
 	color: #ffffff;
@@ -883,3 +883,148 @@ ul.social-networks li.twitter {
 	color: #ddd;
 }
 
+/*======================*/
+/* New Theme Styles */
+/*======================*/
+body p, ul, ul li {
+    color: #666;
+    margin-bottom: 10px;
+}
+#header {
+	position: relative;
+}
+.my-front-page {
+    min-height: 500px;
+    width: 100%;
+    background-image: url('../images/newquay-mobile.jpg');
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	color: #fff;
+	-webkit-box-shadow: 0px 20px 10px 0px rgba(50, 50, 50, 0.25);
+	-moz-box-shadow:    0px 20px 10px 0px rgba(50, 50, 50, 0.25);
+	box-shadow:         0px 20px 10px 0px rgba(50, 50, 50, 0.25);
+}
+.header-main-message {
+	position: absolute;
+	bottom: 0;
+	background: url("../images/content_bg_v2.png");
+	width: 100%;
+	/*padding: 0 7%;*/
+}
+.header-main-message h2 {
+	font-size: 2.5em;
+	font-weight: normal;
+	margin: 1.333% auto;
+
+}
+#section-header {
+    min-height: 60px;
+    background-color: #000;
+}
+.zone-content {
+    border-radius: none;
+    margin-bottom: 0px;
+}
+.zone-preface, .zone-branding, .zone-content, .zone-postscript {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    border-radius: 0px;
+    background: transparent;
+}
+.home-page-panel-pane_x3, .home-page-panel-pane_x3-right {
+    padding: 1.86667%;
+    margin-top: 0.866667%;
+    margin-right: 0px;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+.home_page_block_btn {
+    background: url('../images/eco_button_bg_01.png') repeat-x scroll 0px 0px transparent;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #FFF;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #666;
+    text-shadow: 0px -1px 0px #000, 0px 1px 0px rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+}
+.home-page-panel-pane, .home-page-panel-pane-right {
+    border-radius: 0;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+.home-page-panel-pane h2.pane-title, .home-page-panel-pane-right h2.pane-title {
+    padding: 0.866667% 0 0.866667% 1.1%;
+    margin: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.9em;
+    color: #fff;
+    background-color: #000; 
+}
+.pod_panel img {
+    width: 100%;
+    border: 0px solid #666;
+    border-radius: 0;
+    overflow: hidden;
+    height: auto;
+}
+.pod_panel .title_holder {
+    background: url('../images/content_bg_v2.png') repeat scroll 0% 0% transparent;
+    bottom: 0px;
+    text-align: left;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    overflow: hidden;
+    border-radius: 0;
+}
+.pod_panel .title_holder h4, .pod_panel .title_holder p {
+    padding: 0.2em 0.5em;
+    color: #fff;
+}
+#zone-preface .block, #region-sidebar-first .block, #region-content .block, #region-sidebar-second .block, #zone-postscript .block, #block-menu-menu-logged-in-console {
+    clear: both;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    border-radius: 0px;
+    background: transparent;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+#block-menu-menu-logged-in-console {
+	border: 1px solid #666;
+	background-color: #000;
+}
+#contact_us .morish .contact-us-email a, #contact_us .morish .contact-us-email a:hover {
+    font-size: 2.1em;
+    color: #666;
+    text-decoration: none;
+}
+.views-row {
+    margin: 10px 1% 0px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+.flex-nav-container {
+    margin-top: 1.86667%;
+    background-color: #000;
+}
+.flex-nav-container p {
+    padding: 8px;
+}
+h2.pane-title {
+    font-size: 2.1em;
+    margin-top: 25px;
+}

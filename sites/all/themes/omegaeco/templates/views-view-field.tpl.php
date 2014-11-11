@@ -85,12 +85,12 @@
 
 
 		/* ### new stuff ### */
-			.views-row {
+			/*.views-row {
 			margin: 10px 1% 0 1%;
 			border: 1px solid #333;
 			background-color: #000;
 			padding: 10px;
-			}	
+			}	*/
 			.view h2.main_title, .view h2.main_title {
 			padding:0;
 			margin-bottom:0.1%;

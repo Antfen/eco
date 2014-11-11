@@ -2,17 +2,20 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
  *  and widescreen CSS files as appropriate. */
-
-body {
-	background-image: url('../images/background_image_breakpoints/bg_narrow.jpg');
+.my-front-page {
+    min-height: 500px;
+    width: 100%;
+    background-image: url('../images/newquay-narrow.jpg');
 	background-position: top left;
-	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	color: #fff;
+	-webkit-box-shadow: 0px 20px 10px 0px rgba(50, 50, 50, 0.25);
+	-moz-box-shadow:    0px 20px 10px 0px rgba(50, 50, 50, 0.25);
+	box-shadow:         0px 20px 10px 0px rgba(50, 50, 50, 0.25);
 }
 /* Styles for Home Panel page content type */
 .home-page-panel-pane_x3, .home-page-panel-pane_x3-right {
