@@ -741,7 +741,7 @@ ul.inline li {
 	-webkit-border-radius: 7px;
 	overflow: hidden;
 }
-.block_img_holder .posn_type { /*this is a fix for Safari & other mobile devices. This will force Safari to roud corners; by using the 'clear:both;" attribute.*/
+.block_img_holder .posn_type { /*this is a fix for Safari & other mobile devices. This will force Safari to round corners; by using the 'clear:both;" attribute.*/
 	overflow: hidden;
 	clear: both;
 	border-radius: 7px; 

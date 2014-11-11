@@ -96,7 +96,7 @@
 			margin-bottom:0.1%;
 			}
 			.view h2.main_title a, .view h2.main_title a:hover {
-			color: #fff;
+			color: #ff4400;
 			font-size: 16px;
 			}
 

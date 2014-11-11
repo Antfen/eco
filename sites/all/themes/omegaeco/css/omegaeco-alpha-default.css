@@ -1,4 +1,4 @@
-/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+#contact_us .webform #edit-submit/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 
 #block-menu-menu-accordion { }
 
@@ -147,7 +147,7 @@ ul.social-networks li.twitter {
 /* #### Styles for Content Types #### */
 /* Styles for the Contact (webform) */
 #contact_us .webform #edit-submit {
-	width: 30%;
+	width: 45%;
 	min-height: 35px;
 }
 #contact_us .webform {
