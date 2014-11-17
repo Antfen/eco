@@ -24,21 +24,6 @@ h5 {
     font-weight: normal;
 	margin-bottom: 0px;
 }
-body {
-	/*background-image: url('../images/background_image_breakpoints/bg_mobile.jpg');
-	background-position: top left;
-	background-attachment: fixed;
-	background-repeat: repeat;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	color: #fff;*/
-}
-body p {
-	color: #ffffff;
-	margin-bottom: 10px;
-}
 a:link, a:visited, li a.active {
     color: #ff4400;
     text-decoration: underline;
@@ -46,11 +31,7 @@ a:link, a:visited, li a.active {
 a:hover {
 	text-decoration: none;
 }
-img { /* assists responsive images */
-	/*width: 100%;
-	height: auto;*/
-}
-/* ### fixes ### */
+/* ### position adjusters ### */
 .no_pad_left {
 	padding-left: 0;
 }
@@ -60,8 +41,8 @@ img { /* assists responsive images */
 .more-margin-top {
 	margin-top: 25px;
 }
-/* ==== */
-#section-header{
+/* ### Main containers ### */
+#section-header {
     min-height: 58px;
 }
 .site-slogan {
@@ -215,34 +196,16 @@ background: transparent url(../images/menu_expanded.png) center left no-repeat;
 	margin-top: 15px;
 	margin-bottom: 20px;
 	padding-top: 15px;
-	border-radius: 7px; 
-	-moz-border-radius: 7px; 
-	-webkit-border-radius: 7px;
-	background: url("../images/content_bg_v2.png");
-	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
 }
 .zone-branding, .zone-postscript { 
 	padding-top: 1em;
 	padding-bottom: 0.9em;
-	-moz-border-radius: 0px 0px 12px 12px; 
-	-webkit-border-radius: 0px 0px 12px 12px;
-	border-radius: 0px 0px 12px 12px;	
-	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
 }
 .zone-branding { 
 	margin-top: 0;
 }
-.zone-menu { 
-	-webkit-border-radius: 0px 0px 12px 12px;
-	border-radius: 0px 0px 12px 12px;
-	background: url("../images/content_bg_v2.png");
-	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
-}
 .zone-content { 
-	-webkit-border-radius: 12px 12px 0px 0px;
-	border-radius: 12px 12px 0px 0px;
 	margin-bottom: 0;
-	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
 }
 .zone-postscript { 
 	padding-top: 1em;
@@ -256,23 +219,17 @@ h1 #page-title .title {
 	padding-bottom:0;
 }
 #zone-preface .block, #region-sidebar-first .block, #region-content .block ,#region-sidebar-second .block ,#zone-postscript .block, #block-menu-menu-logged-in-console {
-	clear:both; /*Forces Safari & other mobile devices to round corners*/
 	padding: 10px;
 	border: 1px solid #666666;
 	margin-bottom: 15px;
 	border-radius: 7px; 
-	-moz-border-radius: 7px; 
-	-webkit-border-radius: 7px;
-	background: url("../images/content_bg.png");
 	overflow: hidden;
-	behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
 }
 .page-home-page-panel #region-content .block {
 	background: none;
 	border: none;
 }
 #zone-preface .block h3, #region-sidebar-first .block h3, #region-content .block h3, #region-sidebar-second .block h3, #region-footer-first .block h3, #zone-postscript .block h3, #block-system-user-menu h3 {
-	/*margin: -10px -10px 0;*/
     padding: 5px 5px 6px 0;
     font-weight: normal;
     font-style: normal;
@@ -487,9 +444,6 @@ h3.location-locations-header {
 	width: 100%;
 	z-index: 999;
 	overflow: hidden;
-	border-radius: 0 0 7px 7px;
-     -moz-border-radius: 0 0 7px 7px;
-     -webkit-border-radius: 0 0 7px 7px;
 }
 .pod_panel .title_holder h4, .pod_panel .title_holder p {
 	padding: 0.2em 0.5em;
@@ -525,7 +479,6 @@ h3.location-locations-header {
 	font-weight: normal;
 	font-style: normal;
 	font-size: 1.2em;
-	/*line-height: 2.9em;*/
 	color: #ccc;
 }
 .home-page-panel-pane_x3, .home-page-panel-pane_x3-right {
@@ -535,8 +488,6 @@ h3.location-locations-header {
 	border-radius: 7px;
 	border: 1px solid #666;
 	background-color: #000;
-     -moz-border-radius: 7px;
-     -webkit-border-radius: 7px;
      overflow: hidden;
 }
 .home-page-panel-pane_x3-right {
@@ -557,8 +508,6 @@ h3.location-locations-header {
 	border-radius: 7px;
 	border: 1px solid #666;
 	background-color: #000;
-     -moz-border-radius: 7px;
-     -webkit-border-radius: 7px;
      overflow: hidden;
 }
 .home-page-panel-pane h2.pane-title, .home-page-panel-pane-right h2.pane-title {
@@ -699,9 +648,6 @@ p.home_page_block_para {
 	font-size: 14px;
 	color: #ffffff;
 	text-align: center;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
 	border: 1px solid #666666;
 	text-shadow:
 		0px -1px 0px rgba(000,000,000,1),
@@ -741,12 +687,9 @@ ul.inline li {
 	-webkit-border-radius: 7px;
 	overflow: hidden;
 }
-.block_img_holder .posn_type { /*this is a fix for Safari & other mobile devices. This will force Safari to round corners; by using the 'clear:both;" attribute.*/
+.block_img_holder .posn_type {
 	overflow: hidden;
 	clear: both;
-	border-radius: 7px; 
-	-moz-border-radius: 7px; 
-	-webkit-border-radius: 7px;
 }
 .block_img_holder .posn_type .title_holder {
 	background: url("../images/content_bg.png");
