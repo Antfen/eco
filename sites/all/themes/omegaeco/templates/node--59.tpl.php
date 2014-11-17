@@ -10,7 +10,9 @@
   <?php if ($display_submitted): ?>
   <footer class="submitted"><?php print $date; ?> -- <?php print $name; ?></footer>
   <?php endif; ?>  
-  
+  <!-- This is the tpl for the Video node on the home page panel -->
+  <!-- This is for the live site node -->
+  <!-- This tpl provides a hyperlink to the Video landing page -->
    <?php
          // We hide the comments and links now so that we can render them later.
          hide($content['comments']);

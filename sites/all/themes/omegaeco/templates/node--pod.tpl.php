@@ -20,7 +20,9 @@
          print render($content);
          ?>
       <div id="pod">
-         <div class="grid-6 margin_right"><?php print render($content['field_text_pod']); ?></div>
+         <div class="grid-6 margin_right">
+            <?php print render($content['field_text_pod']); ?>
+         </div>
          <div class="grid-6">
             <?php print render($content['field_image_pod']); ?>
          </div>
