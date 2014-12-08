@@ -971,3 +971,44 @@ h2.pane-title {
     font-size: 2.1em;
     margin-top: 25px;
 }
+/* styles from views-view-field.tpl */
+.view-wiki .views-row .views-label-field-physical-desc {
+	color: #ff9900;
+	padding:0;
+	margin:0;
+	text-decoration: none;
+	}
+.view-wiki .views-row .views-field-field-species-img-spec {
+	padding: 0;
+	}
+.view-wiki .views-row .views-field-field-species-img-spec img {
+	width: 100%;
+	height:auto;
+	background-color: #297ACC;
+	margin-top: 2%;
+	border: 1px solid #666;
+    -moz-border-radius:7px;
+    border-radius: 7px; 
+    -moz-border-radius: 7px; 
+    -webkit-border-radius: 7px;
+    overflow: hidden;
+}
+.view h2.main_title, .view h2.main_title {
+	padding:0;
+	margin-bottom:0.1%;
+	}
+	.view h2.main_title a, .view h2.main_title a:hover {
+	color: #ff4400;
+	font-size: 16px;
+	}
+
+	.view h3.main2_title, .view h3.main2_title {
+	padding:10px 0 0 10px !important;
+	margin-bottom:0.1%;
+	}
+	.view h3.main2_title a, .view h3.main2_title a:hover {
+	color: #ff4400;
+	padding:0;
+	margin:0;
+	text-decoration: none;
+	}
