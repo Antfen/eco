@@ -859,9 +859,10 @@ body p, ul, ul li {
 	/*padding: 0 7%;*/
 }
 .header-main-message h2 {
-	font-size: 2.5em;
+	font-size: 2.0em;
 	font-weight: normal;
-	margin: 1.333% auto;
+	margin: 1.333% 6.333%;
+	text-align: center;
 
 }
 #section-header {
@@ -969,7 +970,8 @@ body p, ul, ul li {
 }
 h2.pane-title {
     font-size: 2.1em;
-    margin-top: 25px;
+    margin-top: 12px;
+    text-align: center;
 }
 /* styles from views-view-field.tpl */
 .view-wiki .views-row .views-label-field-physical-desc {

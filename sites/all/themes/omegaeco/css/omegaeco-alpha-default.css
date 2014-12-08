@@ -242,8 +242,20 @@ ul.social-networks li.twitter {
 	width: auto;
 }
 /* ### Home page styles ### */
-#block-block-2, #block-block-3, #block-block-4, #block-block-9, #block-block-10 {
+/*#block-block-2, #block-block-3, #block-block-4, #block-block-9, #block-block-10 {
 	text-align: left;
+}*/
+.header-main-message h2 {
+	font-size: 2.5em;
+	font-weight: normal;
+	margin: 1.333% auto;
+	text-align: left;
+
+}
+h2.pane-title {
+    font-size: 2.1em;
+    margin-top: 15px;
+    text-align: left;
 }
 /* ### View Image Galery styles ### */
 .view-image-gallery .views-row {
