@@ -1,16 +1,6 @@
-#############
-## Windows detritus
-#############
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
 
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Mac crap
-.DS_Store
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
