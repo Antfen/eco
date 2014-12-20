@@ -246,7 +246,7 @@ h3.location-locations-header {
 }
 #zone-preface {
 	/*display: none !important;*/ /* does not show slide show as default */
-	overflow: hidden; /* no scrollbar-bottom in wide-mode */
+	/*overflow: hidden;*/ /* no scrollbar-bottom in wide-mode */
 }
 #block-menu-menu-footer-menu li {
 	list-style: none;
@@ -488,7 +488,7 @@ h3.location-locations-header {
 	border-radius: 7px;
 	border: 1px solid #666;
 	background-color: #000;
-     overflow: hidden;
+    overflow: hidden;
 }
 .home-page-panel-pane_x3-right {
 	margin-right: 0;
@@ -958,7 +958,7 @@ body p, ul, ul li {
 #zone-preface .block, #region-sidebar-first .block, #region-content .block, #region-sidebar-second .block, #zone-postscript .block, #block-menu-menu-logged-in-console {
     clear: both;
     padding: 10px;
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
     margin-bottom: 15px;
     border-radius: 0px;
     background: transparent;
@@ -998,10 +998,10 @@ h2.pane-title {
 	padding:0;
 	margin:0;
 	text-decoration: none;
-	}
+}
 .view-wiki .views-row .views-field-field-species-img-spec {
 	padding: 0;
-	}
+}
 .view-wiki .views-row .views-field-field-species-img-spec img {
 	width: 100%;
 	height:auto;
@@ -1017,19 +1017,87 @@ h2.pane-title {
 .view h2.main_title, .view h2.main_title {
 	padding:0;
 	margin-bottom:0.1%;
-	}
-	.view h2.main_title a, .view h2.main_title a:hover {
+}
+.view h2.main_title a, .view h2.main_title a:hover {
 	color: #ff4400;
 	font-size: 16px;
-	}
+}
 
-	.view h3.main2_title, .view h3.main2_title {
+.view h3.main2_title, .view h3.main2_title {
 	padding:10px 0 0 10px !important;
 	margin-bottom:0.1%;
-	}
-	.view h3.main2_title a, .view h3.main2_title a:hover {
+}
+.view h3.main2_title a, .view h3.main2_title a:hover {
 	color: #ff4400;
 	padding:0;
 	margin:0;
 	text-decoration: none;
-	}
+}
+/* Surf Panel Page styles */
+.surf-page #zone-content {
+	padding-top: 0;
+}
+#region-content .block {
+    padding: 0;
+    border: none;
+    margin-bottom: 0;
+    /*background: none repeat scroll 0% 0% #F1F1F1;*/
+}
+.surf-page .title {
+    display: none;
+}
+.surf-page .pod_panel {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.surf-page .pod_panel img {
+     width: 100%;
+     border: none;
+     border-radius: none;
+     -moz-border-radius: none;
+     -webkit-border-radius: none;
+     overflow: hidden;
+     height: auto;
+}
+.surf-page #breadcrumb {
+	display: none;
+}
+.surf-page #section-content .container-12 {
+	width: 100%;
+}
+.surf-page #section-content .container-12 .grid-12 {
+	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
+}
+.surf-page .surf-page-basic { /* provides padding for the 'basic' and 'pod' content types used in the Surf panel */
+	padding-right: 10%;
+	padding-left: 10%;
+}
+.surf-container-main {
+    min-height: 500px;
+    width: 100%;
+	background-attachment: fixed;
+}
+#surf-container-1 {
+    width: 100%;
+    background-image: url('../images/newquay.jpg');
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	color: #fff;
+}
+#surf-container-2 {
+    width: 100%;
+    background-image: url('../images/norlunga-large.jpg');
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	color: #fff;
+}

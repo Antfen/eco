@@ -292,3 +292,12 @@ h2.pane-title {
     width: 202px;
     float: left;
 }
+.my-surf-page #zone-content {
+	padding-top: 0;
+}
+#region-content .block {
+    padding: 0;
+    border: none;
+    margin-bottom: 0;
+    /*background: none repeat scroll 0% 0% #F1F1F1;*/
+}
