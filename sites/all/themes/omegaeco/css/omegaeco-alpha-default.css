@@ -236,7 +236,7 @@ ul.social-networks li.twitter {
 }
 /* Styles for Pod content type */
 #pod {
-	padding: 0.8666666%;
+	padding: 1.999%;
 }
 #pod .grid-6 {
 	max-width: 48%;
@@ -292,12 +292,71 @@ h2.pane-title {
     width: 202px;
     float: left;
 }
-.my-surf-page #zone-content {
+/* Surf Panel Page styles */
+.surf-page #zone-content {
 	padding-top: 0;
 }
 #region-content .block {
-    padding: 0;
+    padding: 1.999%;
     border: none;
     margin-bottom: 0;
     /*background: none repeat scroll 0% 0% #F1F1F1;*/
+}
+.surf-page .title {
+    display: none;
+}
+.surf-page .pod_panel {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.surf-page .pod_panel img {
+     width: 100%;
+     border: none;
+     border-radius: none;
+     -moz-border-radius: none;
+     -webkit-border-radius: none;
+     overflow: hidden;
+     height: auto;
+}
+.surf-page #breadcrumb {
+	display: none;
+}
+.surf-page #section-content .container-12 {
+	width: 100%;
+}
+.surf-page #section-content .container-12 .grid-12 {
+	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
+}
+.surf-page .surf-page-basic { /* provides padding for the 'basic' and 'pod' content types used in the Surf panel */
+	padding-right: 10%;
+	padding-left: 10%;
+}
+.surf-container-main {
+    min-height: 500px;
+    width: 100%;
+	background-attachment: fixed;
+}
+#surf-container-1 {
+    width: 100%;
+    background-image: url('../images/newquay.jpg');
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	color: #fff;
+}
+#surf-container-2 {
+    width: 100%;
+    background-image: url('../images/norlunga-large.jpg');
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	color: #fff;
 }

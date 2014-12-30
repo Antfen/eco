@@ -1038,7 +1038,7 @@ h2.pane-title {
 	padding-top: 0;
 }
 #region-content .block {
-    padding: 0;
+    padding: 1.999%;
     border: none;
     margin-bottom: 0;
     /*background: none repeat scroll 0% 0% #F1F1F1;*/
@@ -1075,13 +1075,13 @@ h2.pane-title {
 	padding-left: 10%;
 }
 .surf-container-main {
-    min-height: 500px;
+    min-height: 300px;
     width: 100%;
-	background-attachment: fixed;
+	background-attachment: scroll;
 }
 #surf-container-1 {
     width: 100%;
-    background-image: url('../images/newquay.jpg');
+    background-image: url('../images/newquay-mobile.jpg');
 	background-position: top left;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1092,7 +1092,7 @@ h2.pane-title {
 }
 #surf-container-2 {
     width: 100%;
-    background-image: url('../images/norlunga-large.jpg');
+    background-image: url('../images/norlunga-mobile.jpg');
 	background-position: top left;
 	background-repeat: no-repeat;
 	background-size: cover;
