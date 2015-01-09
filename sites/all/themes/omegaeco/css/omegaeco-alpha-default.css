@@ -267,6 +267,9 @@ ul.social-networks li.twitter {
 	float: none;
 	width: auto;
 }
+#block-system-user-menu ul li a, #block-menu-menu-logged-in-console ul li a, #block-system-user-menu ul li a:hover, #block-menu-menu-logged-in-console ul li a:hover {
+	line-height: 20px;
+}
 /* ### Home page styles ### */
 /*#block-block-2, #block-block-3, #block-block-4, #block-block-9, #block-block-10 {
 	text-align: left;

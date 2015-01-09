@@ -162,7 +162,7 @@ background: transparent url(../images/menu_expanded.png) center left no-repeat;
 	margin-top: 0.1em;
 	margin-bottom: 0.1em;
 	float: left;
-	width: 33.3333333%;
+	width: 99%;
 }
 #block-system-user-menu ul li.first .leaf, #block-menu-menu-logged-in-console ul li.first .leaf {
 	margin-top: 0;
@@ -187,6 +187,7 @@ background: transparent url(../images/menu_expanded.png) center left no-repeat;
 	text-decoration: none;
 	display: block;
 	padding: 2px 4px;
+	line-height: 36px;
 }
 #block-system-user-menu ul li a:hover, #block-menu-menu-logged-in-console ul li a:hover {
 	color: #ff4400;
@@ -837,6 +838,7 @@ ul.social-networks li.twitter {
 	color: #fff;
 	text-decoration: none;
 	line-height: 36px;
+	display: block;
 }
 #block-menu-menu-footer-menu ul.menu li a:hover,
 #block-menu-menu-footer-links ul.menu li a:hover,
