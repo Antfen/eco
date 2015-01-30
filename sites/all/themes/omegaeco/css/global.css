@@ -1052,6 +1052,8 @@ h2.pane-title {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+/* Styles for Home Panel page content type */
 .surf-page .pod_panel img {
      width: 100%;
      border: none;
@@ -1079,11 +1081,12 @@ h2.pane-title {
 .surf-container-main {
     min-height: 300px;
     width: 100%;
-	background-attachment: scroll;
+	background-attachment: fixed;
+	position: relative;
 }
 #surf-container-1 {
     width: 100%;
-    background-image: url('../images/newquay-mobile.jpg');
+    background-image: url('../images/port-river-mobile.jpg');
 	background-position: top left;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1094,7 +1097,7 @@ h2.pane-title {
 }
 #surf-container-2 {
     width: 100%;
-    background-image: url('../images/norlunga-mobile.jpg');
+    background-image: url('../images/port-river-pnue-mobile.jpg');
 	background-position: top left;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1102,4 +1105,28 @@ h2.pane-title {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	color: #fff;
+}
+#surf-container-3 {
+    width: 100%;
+    background-image: url('../images/port-river-creek-mobile.jpg');
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	color: #fff;
+}
+.surf-container-main .pane-title {
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    background: url("../images/content_bg_v2.png");
+    width: 98%;
+    margin: 0;
+}
+.surf-container-main h2.pane-title  {
+	font-size: 2.1em;
+   	padding: 1%;
+    margin: 0;
 }

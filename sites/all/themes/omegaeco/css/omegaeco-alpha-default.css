@@ -295,7 +295,7 @@ h2.pane-title {
     width: 202px;
     float: left;
 }
-/* Surf Panel Page styles */
+/* Styles for Home Panel page content type */
 .surf-page #zone-content {
 	padding-top: 0;
 }
@@ -343,7 +343,7 @@ h2.pane-title {
 }
 #surf-container-1 {
     width: 100%;
-    background-image: url('../images/newquay.jpg');
+    background-image: url('../images/port-river-wide.jpg');
 	background-position: top left;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -354,7 +354,7 @@ h2.pane-title {
 }
 #surf-container-2 {
     width: 100%;
-    background-image: url('../images/norlunga-large.jpg');
+    background-image: url('../images/port-river-pnue-wide.jpg');
 	background-position: top left;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -362,4 +362,7 @@ h2.pane-title {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	color: #fff;
+}
+#surf-container-3 {
+    background-image: url('../images/port-river-creek-mobile.jpg');
 }

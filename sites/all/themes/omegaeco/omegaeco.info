@@ -353,6 +353,10 @@ css[grid.css][name] = 'My custom grid styles'
 css[grid.css][description] = 'This file holds all the grid settings for the theme.'
 css[grid.css][options][weight] = '8'
 
+; PLUGINS
+;scripts[] = menu.js
+;scripts[] = markermanager_packed.js
+
 
 version = '1.x'
 
