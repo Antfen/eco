@@ -1,0 +1,44 @@
+/* user menu */
+#block-system-user-menu {
+    text-align: center;
+    background-color: transparent;
+}
+#block-system-user-menu ul li, #block-menu-menu-logged-in-console ul li {
+    list-style: none;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    float: left;
+    width: 99%;
+}
+#block-system-user-menu ul li.first .leaf, #block-menu-menu-logged-in-console ul li.first .leaf {
+    margin-top: 0;
+}
+#block-system-user-menu ul li a, #block-menu-menu-logged-in-console ul li a {
+    background: url(../images/eco_button_bg_01.png) 0 0 repeat-x;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    text-shadow:
+        0px -1px 0px rgba(000,000,000,1),
+        0px 1px 0px rgba(255,255,255,0.2);
+    border: 1px solid #666666;
+    behavior: url(sites/all/themes/omegaeco/css/PIE.htc);
+    overflow: hidden;
+}
+#block-system-user-menu ul li a, #block-system-user-menu ul li a:hover, #block-menu-menu-logged-in-console ul li a, #block-menu-menu-logged-in-console ul li a:hover {
+    text-decoration: none;
+    display: block;
+    padding: 2px 4px;
+    line-height: 36px;
+}
+#block-system-user-menu ul li a:hover, #block-menu-menu-logged-in-console ul li a:hover {
+    color: #ff4400;
+}
+#block-menu-menu-logged-in-console {
+    border: none;
+    background-color: #000;
+}

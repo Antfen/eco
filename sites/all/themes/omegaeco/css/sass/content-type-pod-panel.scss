@@ -1,0 +1,61 @@
+/* content type pod panel */
+.pod_panel {
+     margin: 1.8666666%;
+     position: relative;
+     overflow: hidden;
+}
+.pod_panel .grid_12 {
+    max-width: 100%;
+    margin: 0;
+}
+.pod_panel img {
+     width: 100%;
+     border: 1px solid #666666;
+     border-radius: 7px;
+     -moz-border-radius: 7px;
+     -webkit-border-radius: 7px;
+     overflow: hidden;
+     height: auto;
+}
+.pod_panel h3 {
+      border-bottom: 1px solid #666;
+      margin-bottom: 20px;
+      margin-right: 0;
+}
+.pod_panel .title_holder {
+    background: url("../images/content_bg_v2.png");
+    bottom: 0;
+    text-align: left;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    overflow: hidden;
+}
+.pod_panel .title_holder h4, .pod_panel .title_holder p {
+    padding: 0.2em 0.5em;
+}
+.home-page-panel-pane h2.pane-title, .home-page-panel-pane-right h2.pane-title {
+    margin-bottom: 7px;
+    margin-left: 5px;
+}
+.pod_panel img {
+    width: 100%;
+    border: 0px solid #666;
+    border-radius: 0;
+    overflow: hidden;
+    height: auto;
+}
+.pod_panel .title_holder {
+    background: url('../images/content_bg_v2.png') repeat scroll 0% 0% transparent;
+    bottom: 0px;
+    text-align: left;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    overflow: hidden;
+    border-radius: 0;
+}
+.pod_panel .title_holder h4, .pod_panel .title_holder p {
+    padding: 0.2em 0.5em;
+    color: #fff;
+}

@@ -1,0 +1,32 @@
+/* gmap */
+.gmap-popup {
+    background: #fff;
+}
+.gmap-popup .node-title {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.gmap-popup .node-title a {
+    text-decoration: none;
+    color: #ff4400;
+}
+.gmap-popup p {
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+.gmap-popup .location-locations-header {
+    color: blue;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+.gmap-popup .location-locations-wrapper {
+    color: #666;
+}
+.gmap-popup .map-link {
+    display: none;
+}

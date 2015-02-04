@@ -1,0 +1,91 @@
+/* footer menu */
+ul.social-networks {
+    margin: 0;
+    padding-top: 30px;
+}
+ul.social-networks li {
+    float:left;
+    list-style: none;
+}
+ul.social-networks li a {
+    display: block;
+    height: 48px;
+}
+ul.social-networks li.facebook {
+    background: url(http://www.ecorhythm.com/sites/all/themes/omegaeco/social-networks/facebook.png) no-repeat center 0;
+    width: 33.333%;
+    background-size: 75%;
+}
+ul.social-networks li.youtube {
+    background: url(http://www.ecorhythm.com/sites/all/themes/omegaeco/social-networks/youtube.png) no-repeat center 0;
+    width: 33.333%;
+    background-size: 50%;
+}
+ul.social-networks li.twitter {
+    background: url(http://www.ecorhythm.com/sites/all/themes/omegaeco/social-networks/twitter.png) no-repeat center 0;
+    width: 33.333%;
+    background-size: 25%;
+}
+#block-menu-menu-footer-menu h2.block-title,
+#block-menu-menu-footer-links h2.block-title,
+#block-menu-menu-footer-development h2.block-title,
+#block-menu-menu-footer-fine-print h2.block-title {
+    color: #fff;
+    text-align: center;
+}
+#block-menu-menu-footer-menu,
+#block-menu-menu-footer-links,
+#block-menu-menu-footer-development,
+#block-menu-menu-footer-fine-print {
+    margin:10px 0 0;
+    padding-top: 0;
+    padding-bottom: 15px;
+    border-top: none;
+}
+#block-menu-menu-footer-menu ul.menu li,
+#block-menu-menu-footer-links ul.menu li,
+#block-menu-menu-footer-development ul.menu li,
+#block-menu-menu-footer-fine-print ul.menu li {
+    background: url(../images/eco_button_bg_01.png) 0 0 repeat-x;
+    margin-left: 0;
+    margin-top: 5px;
+    float: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #666666;
+    text-shadow:
+        0px -1px 0px rgba(000,000,000,1),
+        0px 1px 0px rgba(255,255,255,0.2);
+    overflow: hidden;
+}
+#block-menu-menu-footer-menu ul.menu li a,
+#block-menu-menu-footer-links ul.menu li a,
+#block-menu-menu-footer-development ul.menu li a,
+#block-menu-menu-footer-fine-print ul.menu li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 36px;
+    display: block;
+}
+#block-menu-menu-footer-menu ul.menu li a:hover,
+#block-menu-menu-footer-links ul.menu li a:hover,
+#block-menu-menu-footer-development ul.menu li a:hover,
+#block-menu-menu-footer-fine-print ul.menu li a:hover {
+    color: #ddd;
+}
+#section-footer ul.menu {
+    text-align: center;
+    width: 100%;
+}
+#section-footer ul.menu li {
+    float: left;
+    list-style: none;
+    width: 100%;
+    padding-right:0;
+    /* padding-left: 0; */
+}

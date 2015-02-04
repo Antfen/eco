@@ -1,0 +1,13 @@
+/* better exposed filters */
+.views-exposed-form select, .views-exposed-form input {
+    border: 1px solid #666;
+    -moz-border-radius:5px;
+    border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+}
+.views-exposed-form select {
+    max-width: 175px;
+}
+.container-inline-date .form-item, .container-inline-date .form-item input {
+   width: 85%;
+}

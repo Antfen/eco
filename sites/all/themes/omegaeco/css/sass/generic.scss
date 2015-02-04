@@ -1,0 +1,79 @@
+/* generic */
+h1, h2, h3, h4, h5, h6, p, ul, li, a, p, label, select, input, textarea {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: normal;
+}
+h1 {
+    font-size:22px;
+}
+h2 {
+    font-size: 18px;
+}
+h3 {
+    font-size: 17px;
+    color: #ff9900;
+    margin-bottom: 0px;
+}
+h4 {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+h5 {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+p, ul, ul li {
+    color: #666;
+    margin-bottom: 10px;
+}
+a:link, a:visited, li a.active {
+    color: #ff4400;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
+#section-header {
+    min-height: 58px;
+}
+.site-slogan {
+    color: #FF9900;
+    font-size: 1.4em;
+    padding: 5px 0;
+}
+.site-name  a {
+    color: #FF4400;
+}
+.breadcrumb a {
+    color: #ff4400;
+    text-decoration: none;
+}
+.flt_l {
+    float: left;
+}
+.flt_r {
+    float: right;
+}
+/* headings */
+h2.block-title {
+    color: #ff0000;
+}
+
+h2.pane-title {
+    font-size: 2.1em;
+    margin-top: 12px;
+    text-align: center;
+}
+#fine_print h3 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 16px;
+}
+/* general */
+.page-node-46 .title { /* hides title of the home page node on local */
+    display: none;
+}
+.page-node-43 .title { /* hides title of the home page node on live */
+    display: none;
+}

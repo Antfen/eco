@@ -1,0 +1,93 @@
+/* custom panels */
+.surf-page #zone-content {
+    padding-top: 0;
+}
+#region-content .block {
+    padding: 1.999%;
+    border: none;
+    margin-bottom: 0;
+}
+.surf-page .title {
+    display: none;
+}
+.surf-page .pod_panel {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.surf-page .pod_panel img {
+     width: 100%;
+     border: none;
+     border-radius: none;
+     -moz-border-radius: none;
+     -webkit-border-radius: none;
+     overflow: hidden;
+     height: auto;
+}
+.surf-page #breadcrumb {
+    display: none;
+}
+.surf-page #section-content .container-12 {
+    width: 100%;
+}
+.surf-page #section-content .container-12 .grid-12 {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+.surf-page .surf-page-basic { /* provides padding for the 'basic' and 'pod' content types used in the Surf panel */
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.surf-container-main {
+    min-height: 300px;
+    width: 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+#surf-container-1 {
+    width: 100%;
+    background-image: url('../images/port-river-mobile.jpg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: #fff;
+}
+#surf-container-2 {
+    width: 100%;
+    background-image: url('../images/port-river-pnue-mobile.jpg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: #fff;
+}
+#surf-container-3 {
+    width: 100%;
+    background-image: url('../images/port-river-creek-mobile.jpg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: #fff;
+}
+.surf-container-main .pane-title {
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    background: url("../images/content_bg_v2.png");
+    width: 98%;
+    margin: 0;
+}
+.surf-container-main h2.pane-title  {
+    font-size: 2.1em;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 0;
+}

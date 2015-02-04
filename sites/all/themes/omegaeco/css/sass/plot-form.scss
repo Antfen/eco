@@ -1,0 +1,28 @@
+/* plot form styles */
+.node-plot-form  input {
+    border: 1px solid #ccc;
+    -moz-border-radius:5px;
+    border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+}
+.node-plot-form  select{
+    border: 1px solid #ccc;
+    -moz-border-radius:5px;
+    border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+}
+.container-inline-date .date-padding {
+    padding: 0;
+}
+.container-inline-date > .form-item {
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.filter-help {
+    float: none;
+    padding: 0;
+}
+.node-plot-form .vertical-tabs {
+    border: none;
+}

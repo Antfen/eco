@@ -1,0 +1,84 @@
+/* zones */
+.zone-preface, .zone-branding, .zone-content, .zone-postscript  { 
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+.zone-branding, .zone-postscript { 
+    padding-top: 1em;
+    padding-bottom: 0.9em;
+}
+.zone-branding { 
+    margin-top: 0;
+}
+.zone-content { 
+    margin-bottom: 0;
+}
+.zone-postscript { 
+    padding-top: 1em;
+    padding-bottom: 0.9em;
+    margin-top: 0;
+}
+li.pager-previous {
+    width:60px;
+}
+h1 #page-title .title {
+    padding-bottom:0;
+}
+#zone-preface .block, #region-sidebar-first .block, #region-content .block ,#region-sidebar-second .block ,#zone-postscript .block, #block-menu-menu-logged-in-console {
+    padding: 10px;
+    border: 1px solid #666666;
+    margin-bottom: 15px;
+    border-radius: 7px; 
+    overflow: hidden;
+}
+.page-home-page-panel #region-content .block {
+    background: none;
+    border: none;
+}
+#zone-preface .block h3, #region-sidebar-first .block h3, #region-content .block h3, #region-sidebar-second .block h3, #region-footer-first .block h3, #zone-postscript .block h3, #block-system-user-menu h3 {
+    padding: 5px 5px 6px 0;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.1em;
+}
+h3.location-locations-header {
+    background-color: transparent !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+#region-sidebar-first .block  ul li{
+    list-style: none;
+}
+#zone-preface {
+    /*display: none !important;*/ /* does not show slide show as default */
+    /*overflow: hidden;*/ /* no scrollbar-bottom in wide-mode */
+}
+#block-menu-menu-footer-menu li {
+    list-style: none;
+}
+#section-footer {
+    background-color: #000;
+}
+.zone-content {
+    border-radius: none;
+    margin-bottom: 0px;
+}
+.zone-preface, .zone-branding, .zone-content, .zone-postscript {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    border-radius: 0px;
+    background: transparent;
+}
+#zone-preface .block, #region-sidebar-first .block, #region-content .block, #region-sidebar-second .block, #zone-postscript .block, #block-menu-menu-logged-in-console {
+    clear: both;
+    padding: 10px;
+    /*border: 1px solid #ccc;*/
+    margin-bottom: 15px;
+    border-radius: 0px;
+    background: transparent;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
