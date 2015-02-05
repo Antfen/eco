@@ -401,7 +401,8 @@ ul.social-networks li.twitter {
 /* flexslider */
 .flexslider p {
   margin-bottom: 0;
-  color: #FFF; }
+  color: #FFF;
+  padding-left: 8px; }
 
 .flex-nav-container p {
   padding-top: 8px; }
