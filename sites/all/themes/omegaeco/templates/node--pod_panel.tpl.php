@@ -20,14 +20,12 @@
          hide($content['field_description_pod_panel']);
          print render($content);
          ?>
-   
       <div class="pod_panel">
-         <div class="grid_12"><?php print render($content['field_image_pod_panel']); ?>
-        
+         <div class="grid_12">
+            <?php print render($content['field_image_pod_panel']); ?>
             <div><?php print render($content['body']); ?></div>
             <div class="title_holder"><?php print render($content['field_description_pod_panel']); ?></div>
          </div>
       </div>
-   
    </div>
 </article>
