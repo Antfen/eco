@@ -183,8 +183,8 @@ $databases = array (
     'default' => 
     array (
       'database' => 'ecorhythm',
-      'username' => 'root',
-      'password' => 'admin_1',
+      'username' => 'ecouser',
+      'password' => 'TtL5wPyRvWdQp42B',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
