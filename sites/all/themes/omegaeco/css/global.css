@@ -1018,6 +1018,10 @@ ul.inline li {
   margin: 0;
   text-decoration: none; }
 
+.views-field-field-video-thumb img {
+  width: 100%;
+  height: auto; }
+
 /* footer */
 .footer_p_width {
   color: #ddd;
