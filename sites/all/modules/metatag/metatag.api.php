@@ -5,67 +5,6 @@
  */
 
 /**
- * To enable Metatag support in custom entities, add 'metatags' => TRUE to the
- * entity definition in hook_entity_info(), e.g.:
- * 
- * /**
- *  * Implements hook_entity_info().
- *  *
- *  * Taken from the Examples module.
- *  * /
- * function entity_example_entity_info() {
- *   $info['entity_example_basic'] = array(
- *     'label' => t('Example Basic Entity'),
- *     'controller class' => 'EntityExampleBasicController',
- *     'base table' => 'entity_example_basic',
- *     'uri callback' => 'entity_example_basic_uri',
- *     'fieldable' => TRUE,
- *     'metatags' => TRUE,
- *     'entity keys' => array(
- *       'id' => 'basic_id' , // The 'id' (basic_id here) is the unique id.
- *       'bundle' => 'bundle_type' // Bundle will be determined by the 'bundle_type' field
- *     ),
- *     'bundle keys' => array(
- *       'bundle' => 'bundle_type',
- *     ),
- *     'static cache' => TRUE,
- *     'bundles' => array(
- *       'first_example_bundle' => array(
- *         'label' => 'First example bundle',
- *         'admin' => array(
- *           'path' => 'admin/structure/entity_example_basic/manage',
- *           'access arguments' => array('administer entity_example_basic entities'),
- *         ),
- *       ),
- *     ),
- *     'view modes' => array(
- *       'tweaky' => array(
- *         'label' => t('Tweaky'),
- *         'custom settings' =>  FALSE,
- *       ),
- *     )
- *   );
- * 
- *   return $info;
- * }
- *
- * The definition of each bundle may be handled separately, thus support may be
- * disabled for the entity as a whole but enabled for individual bundles. This
- * is handled via the 'metatags' value on the bundle definition, e.g.:
- *
- *     'bundles' => array(
- *       'first_example_bundle' => array(
- *         'label' => 'First example bundle',
- *         'metatags' => TRUE,
- *         'admin' => array(
- *           'path' => 'admin/structure/entity_example_basic/manage',
- *           'access arguments' => array('administer entity_example_basic entities'),
- *         ),
- *       ),
- *     ),
- */
-
-/**
  * Provides a default configuration for Metatag intances.
  *
  * This hook allows modules to provide their own Metatag instances which can
@@ -128,58 +67,58 @@ function hook_metatag_config_default() {
  */
 function hook_metatag_bundled_config_alter(&$config) {
 }
-  
+
 /**
- * 
+ *
  */
 function hook_metatag_config_default_alter(&$config) {
 }
 
 /**
- * 
+ *
  */
 function hook_metatag_config_delete($entity_type, $entity_ids, $revision_ids, $langcode) {
 }
 
 /**
- * 
+ *
  */
 function hook_metatag_config_insert($config) {
 }
 
 /**
- * 
+ *
  */
 function hook_metatag_config_instance_info() {
   return array();
 }
 
 /**
- * 
+ *
  */
 function hook_metatag_config_instance_info_alter(&$info) {
 }
 
 /**
- * 
+ *
  */
 function hook_metatag_config_load() {
 }
 
 /**
- * 
+ *
  */
 function hook_metatag_config_load_presave() {
 }
 
 /**
- * 
+ *
  */
 function hook_metatag_config_presave($config) {
 }
 
 /**
- * 
+ *
  */
 function hook_metatag_config_update($config) {
 }
@@ -215,6 +154,15 @@ function hook_metatag_config_update($config) {
  *       one meta tag can replace several others, only one of the possible
  *       values will be used, the others will be silently purged upon the next
  *       configuration/object save.
+ *     'multiple' - If set to TRUE the output will be comma-separated and output
+ *       as multiple tags.
+ *     'image' - If set to TRUE some additional effort will be added to attempt
+ *       extracting image URLs from the value. Currently limited to matching
+ *       the default output of core image theming, i.e. the following string:
+ *         src="[URL]" width=
+ *     'select_or_other' - If set to TRUE, form[#type] is set to 'select' and
+ *       the "select_or_other" module is available, that module will be used to
+ *       provide a text field to manually insert another option.
  *     'form' - Optional items to be passed directly to the form; uses standard
  *       Form API values.
  *     'devel_generate' - Optional values to be passed to the Devel Generate
@@ -232,6 +180,19 @@ function hook_metatag_config_update($config) {
  *         'url' - A randomly generated URL on this site.
  *       'maxlength' - The maximum length / number of iterations of this value,
  *         defaults to 10.
+ *     'dependencies' - Optional nested array of values to indicate other meta
+ *       tags that must be present in order for this meta tag to be visible. See
+ *       The Open Graph and Twitter Cards submodules for example usage. Each
+ *       dependency must contain the following elements:
+ *       'dependency' - The name of the meta tag that is required.
+ *       'attribute' - The name of the other meta tag that is to be checked,
+ *         most meta tags use "value" as the attribute name.
+ *       'condition' - The state condition to be checked against, e.g. "filled"
+ *         to check text values, "checked" for a checkbox, "value" to compare
+ *         the raw selection; see https://api.drupal.org/drupal_process_states
+ *         for more details.
+ *       'value' - The field value to check the 'condition' against. see
+ *         https://api.drupal.org/drupal_process_states for further details.
  *   Groups:
  *     'label' - The name for this group.
  *     'description' - A detailed explanation of these meta tags.
@@ -246,15 +207,9 @@ function hook_metatag_info() {
 }
 
 /**
- * 
+ *
  */
 function hook_metatag_info_alter(&$info) {
-}
-
-/**
- * 
- */
-function hook_metatag_load_entity_from_path_alter(&$path, $result) {
 }
 
 /**
@@ -268,21 +223,23 @@ function hook_metatag_load_entity_from_path_alter(&$path, $result) {
  * @param string $instance
  *   An identifier for the current page's page type, typically a combination
  *   of the entity name and bundle name, e.g. "node:story".
+ * @param array $options
+ *   All of the options used to generate the meta tags.
  */
-function hook_metatag_metatags_view_alter(&$output, $instance) {
+function hook_metatag_metatags_view_alter(&$output, $instance, $options) {
   if (isset($output['description']['#attached']['drupal_add_html_head'][0][0]['#value'])) {
     $output['description']['#attached']['drupal_add_html_head'][0][0]['#value'] = 'O rly?';
   }
 }
 
 /**
- * 
+ *
  */
 function hook_metatag_page_cache_cid_parts_alter(&$cid_parts) {
 }
 
 /**
- * 
+ *
  */
 function hook_metatag_presave(&$metatags, $entity_type, $entity_id, $revision_id, $langcode) {
 }
@@ -339,10 +296,12 @@ function hook_metatag_token_types_alter(&$options) {
  *   user object being the value. Some token types, like 'site', do not require
  *   any explicit information from $data and can be replaced even if it is
  *   empty.
+ * @param string $tag_name
+ *   The name of the meta tag being altered.
  *
  * @see DrupalTextMetaTag::getValue()
  */
-function hook_metatag_pattern_alter(&$pattern, &$types) {
+function hook_metatag_pattern_alter(&$pattern, &$types, $tag_name) {
   if (strpos($pattern, 'token_type1') !== FALSE) {
     $types['token_type1'] = "data to be used in hook_tokens for replacement";
   }
@@ -351,5 +310,51 @@ function hook_metatag_pattern_alter(&$pattern, &$types) {
     $types['token_type2'] = array("Then fill in the array with the right data");
     // $pattern could also be altered, for example, strip off [token_type3].
     $pattern = str_replace('[token_type3]', '', $pattern);
+  }
+}
+
+/**
+ * Allow modules to override whether entity types are enabled for use.
+ *
+ * By default the system only support entities that are not configuration
+ * entities, have multiple view modes (excluding those created by the ical,
+ * diff and token modules), are fieldable, and are not one of the following:
+ * - field_collection_item (from the Field Collection module)
+ * - paragraphs_item (from the Paragraphs module)
+ *
+ * @param bool $suitable
+ *   Whether or not the entity type is enabled for use with Metatag.
+ * @param string $entity_type
+ *   The machine name of the entity type.
+ * @param array $entity_info
+ *   The full specifications for this entity type, as returned by
+ *   entity_get_info().
+ */
+function hook_metatag_entity_type_is_supported_alter(&$suitable, $entity_type, $entity_info) {
+  // Enable Metatag support for a custom entity that might otherwise be
+  // ignored, e.g. it doesn't allow fields.
+  if ($entity_type == 'my_entity') {
+    $suitable = TRUE;
+  }
+}
+
+/**
+ * Identify the entity type provided by a specific view.
+ *
+ * When a view is used to display a page it can be difficult to identify what
+ * entity type is being managed. Use this hook to inform Metatag what type of
+ * entity is being displayed.
+ *
+ * @param object $view
+ *   The view object being displayed.
+ *
+ * @return string|NULL
+ *   Should return a string indicating an entity type that will be paired with
+ *   the views' first argument ($view->args[0]) to load that entity.
+ */
+function hook_metatag_views_post_render_get_entity($view) {
+  $display = $view->display[$view->current_display];
+  if ($display->display_options['path'] == 'coolpage/%') {
+    return 'my_entity';
   }
 }
